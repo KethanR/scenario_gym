@@ -5,4 +5,12 @@ from scenario_gym.metrics.trajectory import (
     EgoAvgSpeed,
     EgoDistanceTravelled,
     EgoMaxSpeed,
+    TimeToCollision,
+    SafeLongDistance,
+    SafeLatDistance, 
+    SpaceOccupancyIndex, 
+    DeltaV,
+    DistanceToEgo,
+    CollisionCheck,
+    cleanup_and_lagging_metrics,
 )
