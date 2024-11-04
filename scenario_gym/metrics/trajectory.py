@@ -1,8 +1,6 @@
 import numpy as np
-from shapely.geometry import Polygon, LineString
+from shapely.geometry import Polygon
 from scenario_gym.state import State
-import json
-from collections import defaultdict
 from scenario_gym.entity.pedestrian import Pedestrian
 from .base import Metric
 
@@ -685,7 +683,8 @@ class SpaceOccupancyIndex(Metric):
 class DeltaV(Metric):
     """
     Defined as the change in velocity between pre-collision and post-collision trajectories of a vehicle.
-    Will leverage inelastic collision kinematics to predict delta-v during runtime IF entities are on a collision course.  
+    Will leverage inelastic collision kinematics to predict delta-v during runtime IF entities are on a collision course.
+    Dev Note: This metric only considers traffic particpants/objects that are "pedestrians" (scenario_gym.entity.pedestrian.Pedestrian) or "vehicles" (scenario_gym.entity.vehicle.Vehicle) for now.  
     """
     
     name = "delta_v"
@@ -748,7 +747,6 @@ class DeltaV(Metric):
                     continue
 
                 elif entity.__class__.__name__ != 'Pedestrian' and entity.__class__.__name__ != 'Vehicle':
-                    print(entity.__class__.__name__)
                     continue
 
                 elif self.ego_time_to_collision_bool_and_value[1] < 1:
@@ -768,17 +766,54 @@ class DeltaV(Metric):
         return self.delta_v_dict
     
 
-# #TODOASAP - CONFLICT INDEX
-# class ConflictIndex(Metric):
-#     """
-#     """
-#     name = "conflict_index"
+# TODOASAP - CONFLICT INDEX
+class ConflictIndex(Metric):
+    """
+    A metric to estimate the conflict index between two agents, incorporating both
+    collision probability and severity factors.
 
+    The conflict index (CI) is calculated based on the predicted change in kinetic energy
+    (ΔKe) in a hypothetical collision scenario between two agents, A1 and A2, at the time
+    they enter and exit a designated conflict area. The formula for CI is:
+
+        CI(A1, A2, CA, α, β) = (α * ΔKe) / (e^(β * PET(A1, A2, CA)))
+
+    where:
+        - PET(A1, A2, CA): The Post Encroachment Time (PET) between the agents within
+          the conflict area, representing the time until potential collision.
+        - α ∈ [0, 1]: A calibration factor representing the proportion of energy transfer
+          from vehicle body to passengers, used to quantify collision severity.
+        - β (s⁻¹): A calibration factor dependent on scenario factors (e.g., country, road
+          geometry, visibility) that adjusts collision probability estimation.
+        - ΔKe: The absolute change in kinetic energy of the agents before and after the
+          predicted collision, based on masses, velocities, and angles.
+
+    This metric provides an estimation of the collision likelihood and severity in a given
+    conflict scenario.
+    """
+
+    name = "conflict_index"
+
+    def _reset(self, state: State) -> None:
+        self.ego = state.scenario.ego
+        self.t = 0.0
+
+    def calculate(self) -> NotImplementedError:
+        """
+        Placeholder method for calculating the conflict index.
+        """
+        raise NotImplementedError("The conflict_index metric hasn't been implemented yet. Still a WIP.")
+
+    def _step(self, state: State) -> None:
+        self.calculate
+
+    def get_state(self) -> None:
+        return None
 
 #---------- Collision Check ----------#
 
 class CollisionCheck(Metric):
-    """Checks if the ego vehicle collided with any object in the scenario"""
+    """Checks if the ego vehicle collided with any object in the scenario."""
 
     name = "collision_timestamp"
 
@@ -796,84 +831,3 @@ class CollisionCheck(Metric):
 
     def get_state(self) -> float:
         return self.collision_check_and_timestamp
-    
-
-#---------- Cleaup and Lagging Metrics Check ----------#
-
-def cleanup_and_lagging_metrics(data):
-    # Initialize a dictionary to store TET and TIT for each entity.
-    entity_tet_duration = {}
-    entity_tit_duration = {}
-    space_occupancy_index_cumulative = {}
-
-    # Extract and sort the keys that are valid float timestamps.
-    timestamps = sorted([float(ts) for ts in data if isinstance(ts, (int, float))])
-
-    # Iterate over the sorted timestamps.
-    for i in range(1, len(timestamps)):
-        current_timestamp = timestamps[i]
-        previous_timestamp = timestamps[i - 1]
-
-        # Calculate the time difference between consecutive timestamps.
-        time_diff = current_timestamp - previous_timestamp
-
-        # Extract the corresponding simulation data for the current timestamp.
-        current_simulation_data = data[current_timestamp]
-
-        # Iterate through the dictionaries in the list for each timestamp.
-        for metric_entry in current_simulation_data:
-            if 'time_to_collision' in metric_entry:
-                # Extract the time_to_collision dictionary
-                ttc_data = metric_entry['time_to_collision']
-
-                # Iterate through the TTC entries and extract their TTC values.
-                for entity, ttc in ttc_data.items():
-
-                    # Split the string by spaces and dots
-                    parts = entity.split('.')
-    
-                    # Get the second-to-last part before 'object'
-                    if len(parts) > 1:
-                        entity_type = parts[-2]
-                        class_string = entity_type.lower()  # Return in lowercase
-                    
-                    if class_string == 'pedestrian':
-                        threshold_ttc = 1
-                    elif class_string == 'vehicle':
-                        threshold_ttc = 0.5
-                    else:
-                        # Placeholder value for now.
-                        threshold_ttc = 0.5
-
-                    if 0 < ttc < threshold_ttc:  # Check if TTC is less than the threshold.
-                        # Calculate TIT and TET for this entity
-                        if entity not in entity_tet_duration:
-                            entity_tet_duration[entity] = 0
-                        entity_tet_duration[entity] += time_diff
-                        if entity not in entity_tit_duration:
-                            entity_tit_duration[entity] = 0
-                        entity_tit_duration[entity] += ((1 / ttc) - (1 / threshold_ttc)) * time_diff
-            
-            if 'space_occupancy_index' in metric_entry:
-                space_occupancy_index_data = metric_entry['space_occupancy_index']
-
-                for entity, _blank in space_occupancy_index_data.items():
-                    if entity not in space_occupancy_index_cumulative:
-                        space_occupancy_index_cumulative[entity] = 0
-                    space_occupancy_index_cumulative[entity] += time_diff
-
-
-    # Check if "Lagging Metrics Post-Runtime" exists in the data
-    if 'Lagging Metrics Post-Runtime' not in data:
-        # If not, create it as an empty dictionary
-        data['Lagging Metrics Post-Runtime'] = {}
-
-    # Merge TET, TIT, and Cumulative Space Occupancy values into "Lagging Metrics Post-Runtime"
-    data['Lagging Metrics Post-Runtime'].update({
-        'time_exposed_time_to_collision': entity_tet_duration,
-        'time_integrated_time_to_collision': entity_tit_duration,
-        'cumulative_space_occupancy': space_occupancy_index_cumulative
-    })
-
-    return data
-

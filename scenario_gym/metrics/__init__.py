@@ -11,6 +11,5 @@ from scenario_gym.metrics.trajectory import (
     SpaceOccupancyIndex, 
     DeltaV,
     DistanceToEgo,
-    CollisionCheck,
-    cleanup_and_lagging_metrics,
+    CollisionCheck
 )
