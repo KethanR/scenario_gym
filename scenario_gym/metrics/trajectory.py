@@ -101,11 +101,14 @@ class DistanceToEgo(Metric):
             )
 
     def get_state(self) -> float:
+        """Return distance to ego vehicle."""
         return self.distance_to_ego_dict
 
 
 class SafeLongDistance(Metric):
-    """Determines safe longitudinal distance.
+    """
+    Determines safe longitudinal distance.
+
     All speed and acceleration inputs must be for the longitudinal axis
     responseTime: time it takes rear car to react and begin braking
     speedFront: current velocity of front car
@@ -125,37 +128,42 @@ class SafeLongDistance(Metric):
         self.safe_long_dist_brake_dict = {}
         self.long_dist_dict = {}
         self.long_risk_dict = {}
-        # Time it takes rear car to react and begin braking (both longitudinal and lateral).
+        # Time it takes rear car to begin braking (longitudinal and lateral).
         # https://trl.co.uk/sites/default/files/PPR313_new.pdf
         # Unit: seconds (s)
         self.responseTime = 1.5
         # Max braking of front car (longitudinal)
-        # Bokare, P. S., & Maurya, A. K. (2017). Acceleration-deceleration behaviour of various vehicle types. Transportation research procedia, 25, 4733-4749.
+        # Bokare, P. S., & Maurya, A. K. (2017).
+        # Acceleration-deceleration behaviour of various vehicle types.
+        # Transportation research procedia, 25, 4733-4749.
         # Unit: m/s^2
         self.accFrontMaxBrake = 2.5
         # Max acceleration of rear car during response time (longitudinal)
-        # Bokare, P. S., & Maurya, A. K. (2017).Acceleration-deceleration behaviour of various vehicle types. Transportation research procedia, 25, 4733-4749.
+        # Bokare, P. S., & Maurya, A. K. (2017).
+        # Acceleration-deceleration behaviour of various vehicle types.
+        # Transportation research procedia, 25, 4733-4749.
         # Unit: m/s^2
         self.accRearMaxResp = 2.5
         # Min braking of rear car (longitudinal).
         # Unit: m/s^2
         self.accRearMinBrake = 1
-        # Max braking capability of rear car (longitudinal) replace for ACC_REAR_MIN_BRAKE when calculating 'safeDistanceBrake'.
-        # Bokare, P. S., & Maurya, A. K. (2017). Acceleration-deceleration behaviour of various vehicle types. Transportation research procedia, 25, 4733-4749.
+        # Max braking capability of rear car (longitudinal).
+        # Bokare, P. S., & Maurya, A. K. (2017).
+        # Acceleration-deceleration behaviour of various vehicle types.
+        # Transportation research procedia, 25, 4733-4749.
         # Unit: m/s^2
         self.accRearMaxBrake = 4
 
     def _get_lane_and_lane_center_index(
         self, entity_pos, entity_road_network_information
     ):
-        # Initialize variables to deduce the closest lane center coordinates to
-        # entity
+        # Initialize variables to deduce the closest lane center coordinates
         min_distance = float("inf")
         final_lane_center_index = None
         final_lane_index = None
 
         if "Lane" not in entity_road_network_information[0]:
-            # print("SafeLongDist: Silly Goose! Vehicle is out-of-bounds (no lane access).")
+            # print("SafeLongDist: Vehicle is out-of-bounds (no lane access).")
             return 0, 0
 
         for lane_index, road_network_type in enumerate(
@@ -165,11 +173,9 @@ class SafeLongDistance(Metric):
                 lane = entity_road_network_information[1][lane_index]
                 # Loop through lane center points to find the closest one to entity
                 for lane_center_index, coords in enumerate(lane.center.coords):
-                    # Compute the Euclidean distance between ego position and lane
-                    # center
+                    # Compute the Euclidean distance between ego and lane center
                     distance = abs(np.linalg.norm(entity_pos - coords))
-                    # Update the closest lane center index if the distance is
-                    # smaller
+                    # Update the closest lane center index
                     if distance < min_distance:
                         min_distance = distance
                         final_lane_center_index = lane_center_index
@@ -181,7 +187,9 @@ class SafeLongDistance(Metric):
 
     def _is_ego_leading_following_or_side(self, pos1, roadinfo1, pos2, roadinfo2):
         """
-        Dev Note: Safe longitudinal distance is currently limited to instances where both vehicles are in the same lane.
+        Dev Note: Safe longitudinal distance is currently limited.
+
+        To instances where both vehicles are in the same lane.
         """
         (
             current_lane_vehicle_1,
@@ -209,8 +217,7 @@ class SafeLongDistance(Metric):
             longitudinal_direction = -(
                 next_lane_center_point - current_lane_center_point
             )
-            # Project relative position vectors onto the direction vector using dot
-            # product
+            # Project relative position vectors onto the direction vector
             proj1 = np.dot(pos1, longitudinal_direction)
             proj2 = np.dot(pos2, longitudinal_direction)
             # Determine which position vector is ahead
@@ -232,10 +239,12 @@ class SafeLongDistance(Metric):
             entity_pos, entity_road_network_information
         )
 
-        # Convert closest lane center point and next-nearest lane center to array
-        # Does not matter if the next lane center point is 'ahead' or 'behind' direction of travel...
+        # Convert closest lane center point and
+        # next-nearest lane center to array.
+        # Does not matter if the next lane center point is 'ahead' or 'behind'
+        # direction of travel...
         # Because we only need the projection of the entity's velocity onto the
-        # longitudinal direction (no sign needed for speed)
+        # Longitudinal direction (no sign needed for speed).
         current_lane_center_point = np.array(
             current_lane.center.coords[final_lane_center_index]
         )
@@ -265,10 +274,12 @@ class SafeLongDistance(Metric):
             pos_ego, entity_road_network_information
         )
 
-        # Convert closest lane center point and next-nearest lane center to array
-        # Does not matter if the next lane center point is 'ahead' or 'behind' direction of travel...
+        # Convert closest lane center point and
+        # next-nearest lane center to array.
+        # Does not matter if the next lane
+        # center point is 'ahead' or 'behind' direction of travel...
         # Because we only need the projection of the entity's velocity onto the
-        # longitudinal direction (no sign needed for speed)
+        # Longitudinal direction (no sign needed for speed)
         current_lane_center_point = np.array(
             current_lane.center.coords[final_lane_center_index]
         )
@@ -318,10 +329,12 @@ class SafeLongDistance(Metric):
     # Function to calculate the longitudinal or lateral risk index [0,1]
     def _long_risk_index(self, safe_distance, safe_distance_brake, distance):
         """
-        All inputs must me either longitudinal or lateral safeDistance: safe longitudinal/lateral distance (use
-        function SafeLonDistance/SafeLatDistance) safeDistanceBrake: safe longitudinal/lateral distance under max
-        braking capacity (use function SafeLonDistance/SafeLatDistance with max braking acceleration) distance: current
-        longitudinal/lateral distance between cars
+        Quantifies risk between 0 and 1.
+
+        safeDistance: safe longitudinal distance (use function SafeLonDistance).
+        safeDistanceBrake: safe longitudinal distance under max braking capacity
+        (use function SafeLonDistance with max braking acceleration)
+        distance: current longitudinal/lateral distance between cars
         """
         if safe_distance + distance > 0:
             r = 0
@@ -334,7 +347,7 @@ class SafeLongDistance(Metric):
         return r
 
     def _step(self, state: State) -> None:
-        """Remember, all speed and acceleration inputs must be for the longitudinal axis."""
+        """All speed and acceleration inputs must be longitudinal axis."""
         # Get entities within 10m of the ego, if entities exist...
         if len(state.get_entities_in_radius(*state.poses[self.ego][:2], 10)) > 1:
             for entity in state.get_entities_in_radius(
@@ -432,12 +445,14 @@ class SafeLongDistance(Metric):
 
 
 class SafeLatDistance(Metric):
-    """Determines safe latitudinal distance.
-    All speed and acceleration inputs must be for the lateral axis
+    """
+    Determines safe latitudinal distance.
+
+    Speed and acceleration inputs must be for the lateral axis
     responseTime: time it takes rear car to react and begin braking
     speedLeft: current velocity of left car
     speedRight: current velocity of right car
-    accMaxResp: max acceleration of both cars towards each other during response time
+    accMaxResp: max acceleration of both cars towards each other during response
     accMinBrake: min braking of both cars
     """
 
@@ -450,11 +465,12 @@ class SafeLatDistance(Metric):
         self.safe_lat_dist_brake_dict = {}
         self.lat_dist_dict = {}
         self.lat_risk_dict = {}
-        # Time it takes rear car to react and begin braking (both longitudinal and lateral).
+        # Time it takes rear car to begin braking (longitudinal and lateral).
         # https://trl.co.uk/sites/default/files/PPR313_new.pdf
         # Unit: seconds (s)
         self.responseTime = 1.5
-        # Max acceleration of both cars towards each other during response time (lateral).
+        # Max acceleration of both cars towards
+        # each other during response time (lateral).
         # Unit: m/s^2
         self.accMaxResp = 1
         # Min braking of both cars (lateral).
@@ -470,14 +486,13 @@ class SafeLatDistance(Metric):
     def _get_lane_and_lane_center_index(
         self, entity_pos, entity_road_network_information
     ):
-        # Initialize variables to deduce the closest lane center coordinates to
-        # entity
+        # Initialize variables to deduce the closest lane center coordinates
         min_distance = float("inf")
         final_lane_center_index = None
         final_lane_index = None
 
         if "Lane" not in entity_road_network_information[0]:
-            # print("SafeLatDist: Silly Goose! Vehicle is out-of-bounds (no lane access).")
+            # print("SafeLatDist: Vehicle is out-of-bounds (no lane access).")
             return 0, 0
 
         for lane_index, road_network_type in enumerate(
@@ -487,11 +502,9 @@ class SafeLatDistance(Metric):
                 lane = entity_road_network_information[1][lane_index]
                 # Loop through lane center points to find the closest one to entity
                 for lane_center_index, coords in enumerate(lane.center.coords):
-                    # Compute the Euclidean distance between ego position and lane
-                    # center
+                    # Compute the Euclidean distance between ego and lane center.
                     distance = abs(np.linalg.norm(entity_pos - coords))
-                    # Update the closest lane center index if the distance is
-                    # smaller
+                    # Update the closest lane center index
                     if distance < min_distance:
                         min_distance = distance
                         final_lane_center_index = lane_center_index
@@ -503,7 +516,9 @@ class SafeLatDistance(Metric):
 
     def _is_ego_left_or_right(self, pos1, roadinfo1, pos2, roadinfo2):
         """
-        Dev Note: Safe latitudinal distance is currently limited to instances where both vehicles are in separate lanes.
+        Dev Note: Safe latitudinal distance is currently limited.
+
+        To instances where both vehicles are in separate lanes.
         """
         (
             current_lane_vehicle_1,
@@ -551,8 +566,10 @@ class SafeLatDistance(Metric):
             entity_pos, entity_road_network_information
         )
 
-        # Convert closest lane center point and next-nearest lane center to array
-        # Does not matter if the next lane center point is 'ahead' or 'behind' direction of travel...
+        # Convert closest lane center point and
+        # next-nearest lane center to array.
+        # Does not matter if the next lane center point is 'ahead' or 'behind'
+        # direction of travel...
         # Because we only need the projection of the entity's velocity onto the
         # latitudinal direction (no sign needed for speed)
         current_lane_center_point = np.array(
@@ -591,7 +608,8 @@ class SafeLatDistance(Metric):
         )
 
         # Convert closest lane center point and next-nearest lane center to array
-        # Does not matter if the next lane center point is 'ahead' or 'behind' direction of travel...
+        # Does not matter if the next lane center point is 'ahead' or 'behind'
+        # direction of travel...
         # Because we only need the projection of the entity's velocity onto the
         # latitudinal direction (no sign needed for speed)
         current_lane_center_point = np.array(
@@ -675,10 +693,12 @@ class SafeLatDistance(Metric):
     # Function to calculate the longitudinal or lateral risk index [0,1]
     def _lat_risk_index(self, safe_distance, safe_distance_brake, distance):
         """
-        All inputs must me either longitudinal or lateral safeDistance: safe longitudinal/lateral distance (use
-        function SafeLonDistance/SafeLatDistance) safeDistanceBrake: safe longitudinal/lateral distance under max
-        braking capacity (use function SafeLonDistance/SafeLatDistance with max braking acceleration) distance: current
-        longitudinal/lateral distance between cars
+        Quantifies risk between 0 and 1.
+
+        safeDistance: safe lateral distance (use function SafeLatDistance)
+        safeDistanceBrake: safe lateral distance under max braking capacity
+        (use function SafeLatDistance with max braking acceleration)
+        distance: current lateral distance between cars
         """
         if safe_distance + distance > 0:
             r = 0
@@ -691,7 +711,7 @@ class SafeLatDistance(Metric):
         return r
 
     def _step(self, state: State) -> None:
-        """Remember, all speed and acceleration inputs must be for the longitudinal axis."""
+        """All speed and acceleration inputs must be latitudinal axis."""
         # Get entities within 10m of the ego, if entities exist...
         if len(state.get_entities_in_radius(*state.poses[self.ego][:2], 10)) > 1:
             for entity in state.get_entities_in_radius(
@@ -785,7 +805,7 @@ class SafeLatDistance(Metric):
 
 # ---------- Time-Based Metrics ----------#
 class TimeToCollision(Metric):
-    """Measure the time-to-collision to nearest traffic participant (ego perspective)."""
+    """Time-to-collision to nearest traffic participant."""
 
     name = "time_to_collision"
 
@@ -825,8 +845,10 @@ class TimeToCollision(Metric):
             box2_at_t = self._translate_polygon(
                 box2, x2 + vx2 * t - x2, y2 + vy2 * t - y2
             )
-            # Check if the projected bounding boxes intersect (projected to actually overlap).
-            # If no intersection, check if they're within the distance tolerance (projected to be within distance_tolerance, i.e. a near miss).
+            # Check if the projected bounding boxes
+            # intersect (projected to actually overlap).
+            # If no intersection, check if they're projected to be
+            # within the distance tolerance (i.e. a near miss).
             # If either of these conditions are true, then 't' is the
             # time-to-collision (TTC).
             if (
@@ -882,18 +904,13 @@ class TimeToCollision(Metric):
                     # track/timestamp TTC in simulation.
                     if state.t not in self.time_to_collision_dict:
                         self.time_to_collision_dict[state.t] = []
+                        time_to_collision = (
+                            self.ego_time_to_collision_bool_and_value[1]
+                        )
                     self.time_to_collision_dict[state.t].append(
-                        {
-                            "time_to_collision": {
-                                f"{entity}": self.ego_time_to_collision_bool_and_value[
-                                    1
-                                ]
-                            }
-                        }
+                        {"time_to_collision": {f"{entity}": time_to_collision}}
                     )
                 else:
-                    # Line below is commented-out to omit tracking TTC for entities outside certain radius of ego.
-                    # self.time_to_collision_dict[state.t] = {entity: self.ego_time_to_collision_bool_and_value[0]}
                     continue
 
     def get_state(self) -> dict:
@@ -903,7 +920,12 @@ class TimeToCollision(Metric):
 
 # ---------- Index-scale Criticality Metrics ----------#
 class SpaceOccupancyIndex(Metric):
-    """The Space Occupancy Index (SOI) defines a personal space for the ego vehicle and counts violations by other participants."""
+    """
+    Tracks SOI.
+
+    The Space Occupancy Index (SOI) defines a personal space for the ego
+    and counts violations by other participants.
+    """
 
     name = "space_occupancy_index"
 
@@ -914,7 +936,12 @@ class SpaceOccupancyIndex(Metric):
         self.predefined_radius = 15
 
     def _step(self, state: State) -> None:
-        """Capture the number of personal space incursions experienced by each actor."""
+        """
+        SOI for every timestep.
+
+        Capture the number of personal space incursions
+        experienced by each actor.
+        """
         # Personal space is defined by existing within a set radius.
         if (
             len(
@@ -946,9 +973,15 @@ class SpaceOccupancyIndex(Metric):
 # ---------- Severity Metrics ----------#
 class DeltaV(Metric):
     """
-    Defined as the change in velocity between pre-collision and post-collision trajectories of a vehicle.
-    Will leverage inelastic collision kinematics to predict delta-v during runtime IF entities are on a collision course.
-    Dev Note: This metric only considers traffic particpants/objects that are "pedestrians" (scenario_gym.entity.pedestrian.Pedestrian) or "vehicles" (scenario_gym.entity.vehicle.Vehicle) for now.
+    Calculates Delta-V metric.
+
+    Defined as the change in velocity between pre-collision
+    and post-collision trajectories of a vehicle.
+    Will leverage inelastic collision kinematics to predict delta-v
+    during runtime IF entities are on a collision course.
+    Dev Note: This metric only considers traffic particpants/objects that
+    are "pedestrians" (scenario_gym.entity.pedestrian.Pedestrian)
+    or "vehicles" (scenario_gym.entity.vehicle.Vehicle) for now.
     """
 
     name = "delta_v"
@@ -989,9 +1022,10 @@ class DeltaV(Metric):
             box2_at_t = self._translate_polygon(
                 box2, x2 + vx2 * t - x2, y2 + vy2 * t - y2
             )
-            # Check if the projected bounding boxes intersect (projected to actually overlap).
-            # If no intersection, check if they're within the distance tolerance
-            # (projected to be within distance_tolerance, i.e. a near miss).
+            # Check if the projected bounding boxes
+            # intersect (projected to actually overlap).
+            # If no intersection, check if they're projected to be
+            # within the distance tolerance (i.e. a near miss).
             if (
                 box1_at_t.intersects(box2_at_t)
                 or box1_at_t.distance(box2_at_t) <= distance_tolerance
@@ -1000,7 +1034,12 @@ class DeltaV(Metric):
         return [False, None]
 
     def _step(self, state: State) -> None:
-        """Predict the delta_v for each entity potentially involved in a collision with ego vehicle."""
+        """
+        Delta-V for every timestep.
+
+        Predict the delta_v for each entity potentially involved
+        in a collision with ego vehicle.
+        """
         # Get entities within 10m of the ego, if entities exist...
         if len(state.get_entities_in_radius(*state.poses[self.ego][:2], 10)) > 1:
             # Then loop through non_ego entities and check if they will reach
@@ -1078,27 +1117,35 @@ class DeltaV(Metric):
 # TODOASAP - CONFLICT INDEX
 class ConflictIndex(Metric):
     """
-    A metric to estimate the conflict index between two agents, incorporating both
-    collision probability and severity factors.
+    A metric to estimate the conflict index between two agents.
 
-    The conflict index (CI) is calculated based on the predicted change in kinetic energy
-    (ΔKe) in a hypothetical collision scenario between two agents, A1 and A2, at the time
-    they enter and exit a designated conflict area. The formula for CI is:
+    Incorporates both collision probability and severity factors.
+
+    The conflict index (CI) is calculated based on
+    the predicted change in kinetic energy (ΔKe)
+    in a hypothetical collision scenario between two agents, A1 and A2,
+    at the time they enter and exit a designated conflict area.
+
+    The formula for CI is:
 
         CI(A1, A2, CA, α, β) = (α * ΔKe) / (e^(β * PET(A1, A2, CA)))
 
     where:
-        - PET(A1, A2, CA): The Post Encroachment Time (PET) between the agents within
-          the conflict area, representing the time until potential collision.
-        - α ∈ [0, 1]: A calibration factor representing the proportion of energy transfer
-          from vehicle body to passengers, used to quantify collision severity.
-        - β (s⁻¹): A calibration factor dependent on scenario factors (e.g., country, road
-          geometry, visibility) that adjusts collision probability estimation.
-        - ΔKe: The absolute change in kinetic energy of the agents before and after the
-          predicted collision, based on masses, velocities, and angles.
+        - PET(A1, A2, CA): The Post Encroachment Time between the agents
+        within the conflict area, representing the time
+        until potential collision.
+        - α ∈ [0, 1]: A calibration factor representing the
+        proportion of energy transfer from vehicle body to passengers,
+        used to quantify collision severity.
+        - β (s⁻¹): A calibration factor dependent on scenario factors
+        (e.g., country, road geometry, visibility) that adjusts
+        collision probability estimation.
+        - ΔKe: The absolute change in kinetic energy of the agents
+        before and after the predicted collision,
+        based on masses, velocities, and angles.
 
-    This metric provides an estimation of the collision likelihood and severity in a given
-    conflict scenario.
+    This metric provides an estimation of the collision
+    likelihood and severity in a given conflict scenario.
     """
 
     name = "conflict_index"
@@ -1108,9 +1155,7 @@ class ConflictIndex(Metric):
         self.t = 0.0
 
     def calculate(self) -> NotImplementedError:
-        """
-        Placeholder method for calculating the conflict index.
-        """
+        """Calculate the conflict index."""
         raise NotImplementedError(
             "The conflict_index metric hasn't been implemented yet. Still a WIP."
         )
@@ -1119,6 +1164,7 @@ class ConflictIndex(Metric):
         self.calculate
 
     def get_state(self) -> None:
+        """Return conflict index."""
         return None
 
 
@@ -1143,4 +1189,5 @@ class CollisionCheck(Metric):
                 # print("collision check is true at time", state.t)
 
     def get_state(self) -> float:
+        """Return collision check and timestamp."""
         return self.collision_check_and_timestamp
