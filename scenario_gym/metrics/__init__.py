@@ -1,15 +1,14 @@
 from scenario_gym.metrics.base import Metric, cache_mean, cache_metric
 from scenario_gym.metrics.collision import CollisionMetric
-from scenario_gym.metrics.rss.rss import RSS, RSSDistances
-from scenario_gym.metrics.trajectory import (
-    CollisionCheck,
-    DeltaV,
+from scenario_gym.metrics.distance import (
     DistanceToEgo,
-    EgoAvgSpeed,
     EgoDistanceTravelled,
-    EgoMaxSpeed,
     SafeLatDistance,
     SafeLongDistance,
-    SpaceOccupancyIndex,
-    TimeToCollision,
 )
+from scenario_gym.metrics.index_scale import SpaceOccupancyIndex
+from scenario_gym.metrics.rss.rss import RSS, RSSDistances
+from scenario_gym.metrics.severity import DeltaV
+from scenario_gym.metrics.time import TimeToCollision
+from scenario_gym.metrics.utils_and_callbacks import CollisionTimestamp
+from scenario_gym.metrics.velocity import EgoAvgSpeed, EgoMaxSpeed
