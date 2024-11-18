@@ -190,12 +190,7 @@ with col[1]:
     # Display video associated with the selected JSON file (always visible)
     video_file = selected_file.replace(".json", ".mp4")
     video_file_path = os.path.join(video_dir, video_file)
-
-    # Check if the video file exists before displaying
-    if os.path.exists(video_file_path):
-        st.video(video_file_path)
-    else:
-        st.write(f"Video for {selected_file} not found.")
+    st.video(video_file_path)
 
 #---------- END: Scenario Playback Video ----------# 
 
