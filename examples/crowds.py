@@ -19,7 +19,6 @@ from scenario_gym.xosc_interface import read_catalog
 
 
 def main():
-
     # define the gym and rendering config
     gym = ScenarioGym(
         timestep=1 / 15,

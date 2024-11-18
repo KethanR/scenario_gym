@@ -1,4 +1,5 @@
 from scenario_gym.metrics.base import Metric, cache_mean, cache_metric
+from .utils_and_callbacks import LaneAndLaneCenter
 from scenario_gym.metrics.collision import CollisionMetric
 from scenario_gym.metrics.distance import (
     DistanceToEgo,

@@ -72,7 +72,7 @@ def combine_observations(
     def from_obs(cls, *obs):
         """Create the class from observation instances."""
         args = []
-        for (i, name) in maps.values():
+        for i, name in maps.values():
             val = getattr(obs[i], name)
             args.append(val)
         return cls(*args)

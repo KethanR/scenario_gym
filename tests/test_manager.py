@@ -36,7 +36,7 @@ def test_manager():
     new_manager = ScenarioManager(timestep=timestep + 1)
     assert (
         new_manager.timestep == timestep + 1
-    ), f"Should be {timestep+1} but got {new_manager.timestep}."
+    ), f"Should be {timestep + 1} but got {new_manager.timestep}."
 
     # try adding a random argument
     new_manager = ScenarioManager(test_argument_12345="test")

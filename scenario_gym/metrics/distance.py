@@ -4,6 +4,7 @@ from scenario_gym.entity.pedestrian import Pedestrian
 from scenario_gym.state import State
 
 from .base import Metric
+from .utils_and_callbacks import LaneAndLaneCenter
 
 
 # ---------- Distance Metrics ----------#
@@ -76,6 +77,9 @@ class SafeLongDistance(Metric):
     """
 
     name = "safe_longitudinal_distance"
+    required_callbacks = [LaneAndLaneCenter]
+    
+    # BELOW ONLY APPLICABLE FOR CAR-TYPE VEHICLES. 
 
     # Time it takes rear car to begin braking (longitudinal and lateral).
     # https://trl.co.uk/sites/default/files/PPR313_new.pdf
@@ -103,19 +107,20 @@ class SafeLongDistance(Metric):
     # Unit: m/s^2
     accRearMaxBrake = 4
 
-    # Class attributes for function _is_ego_leading_following_or_side -> str output. 
+    # Class attributes for function _is_ego_leading_following_or_side -> str output.
     LEADING = "leading"
     FOLLOWING = "following"
     SIDEBYSIDE = "side-by-side"
     OUT_OF_BOUNDS = "out-of-bounds"
 
     def _reset(self, state: State) -> None:
+        self.laneandlanecenter_callback = self.callbacks[0]
         self.ego = state.scenario.ego
         self.safe_long_dist_dict = {}
         self.safe_long_dist_brake_dict = {}
         self.long_dist_dict = {}
         self.long_risk_dict = {}
-
+ 
     def _get_lane_and_lane_center_index(
         self, entity_pos, entity_road_network_information
     ) -> tuple:
@@ -129,9 +134,7 @@ class SafeLongDistance(Metric):
         if "Lane" not in road_network_types:
             return 0, 0
 
-        for lane_index, road_network_type in enumerate(
-            road_network_types
-        ):
+        for lane_index, road_network_type in enumerate(road_network_types):
             if road_network_type == "Lane":
                 lane = road_network_ids[lane_index]
                 # Loop through lane center points to find the closest one to entity
@@ -148,7 +151,9 @@ class SafeLongDistance(Metric):
 
         return current_lane, final_lane_center_index
 
-    def _is_ego_leading_following_or_side(self, pos1, roadinfo1, pos2, roadinfo2) -> str:
+    def _is_ego_leading_following_or_side(
+        self, pos1, roadinfo1, pos2, roadinfo2
+    ) -> str:
         """
         Dev Note: Safe longitudinal distance is currently limited.
 
@@ -289,11 +294,12 @@ class SafeLongDistance(Metric):
 
         return safeLonDis, safeLonDisBrake
 
-    
-    def _long_risk_index(self, safe_distance, safe_distance_brake, distance) -> float:
+    def _long_risk_index(
+        self, safe_distance, safe_distance_brake, distance
+    ) -> float:
         """
         Calculate the longitudinal risk index [0,1].
-        
+
         safeDistance: safe longitudinal distance (use function SafeLonDistance).
         safeDistanceBrake: safe longitudinal distance under max braking capacity
         (use function SafeLonDistance with max braking acceleration)
@@ -330,6 +336,11 @@ class SafeLongDistance(Metric):
                 vel_non_ego = state.velocities[entity][:2]
                 non_ego_road_network_info = state.get_road_info_at_entity(entity)
 
+                lane_center = self.laneandlanecenter_callback.current_lane
+                lane_index = self.laneandlanecenter_callback.final_lane_center_index
+
+                print(lane_center, lane_index)
+                
                 ego_relative_position_string = (
                     self._is_ego_leading_following_or_side(
                         pos_ego,
@@ -439,7 +450,7 @@ class SafeLatDistance(Metric):
     # Unit: m/s^2
     accMaxBrake = 4
 
-    # Class attributes for function _is_ego_left_or_right -> str output. 
+    # Class attributes for function _is_ego_left_or_right -> str output.
     RIGHT = "right"
     LEFT = "left"
     INLINE = "inline"
@@ -452,7 +463,7 @@ class SafeLatDistance(Metric):
         self.safe_lat_dist_brake_dict = {}
         self.lat_dist_dict = {}
         self.lat_risk_dict = {}
-        
+
     def _get_lane_and_lane_center_index(
         self, entity_pos, entity_road_network_information
     ) -> tuple:
@@ -466,9 +477,7 @@ class SafeLatDistance(Metric):
         if "Lane" not in road_network_types:
             return 0, 0
 
-        for lane_index, road_network_type in enumerate(
-            road_network_types
-        ):
+        for lane_index, road_network_type in enumerate(road_network_types):
             if road_network_type == "Lane":
                 lane = road_network_ids[lane_index]
                 # Loop through lane center points to find the closest one to entity
@@ -661,7 +670,9 @@ class SafeLatDistance(Metric):
 
         return safeLatDis, safeLatDisBrake
 
-    def _lat_risk_index(self, safe_distance, safe_distance_brake, distance) -> float:
+    def _lat_risk_index(
+        self, safe_distance, safe_distance_brake, distance
+    ) -> float:
         """
         Calculate the latitudinal risk index [0,1].
 
