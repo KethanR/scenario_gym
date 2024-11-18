@@ -195,7 +195,7 @@ with col[1]:
     if os.path.exists(video_file_path):
         st.video(video_file_path)
     else:
-        st.write(f"Video for {selected_file} not found.")
+        st.write(f"Video for {video_file_path} not found.")
 
 #---------- END: Scenario Playback Video ----------# 
 
