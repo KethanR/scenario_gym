@@ -146,7 +146,6 @@ def import_argoverse_scenario(path: str) -> Scenario:
 
     entities = []
     for track_id, df in dfs:
-
         if track_id != "AV" and not df["observed"].any():
             continue
 

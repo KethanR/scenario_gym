@@ -85,7 +85,6 @@ class KeyboardAgent(Agent):
 
 
 class KeyboardConfig(ScenarioManager):
-
     PARAMETERS = {
         "timestep": 0.0333,
         "headless_rendering": False,
@@ -119,7 +118,6 @@ class KeyboardConfig(ScenarioManager):
 
 
 if __name__ == "__main__":
-
     config = KeyboardConfig()
     gym = scenario_gym.ScenarioGym(
         timestep=config.timestep,

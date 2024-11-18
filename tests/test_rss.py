@@ -17,9 +17,9 @@ def test_add_rss(all_scenarios):
         "RSS_safe_longitudinal" in data and "RSS_safe_lateral" in data
     ), "Name did not get applied."
     assert len(data) == 2, "Incorrect number of metrics returned."
-    assert (
-        type(data["RSS_safe_longitudinal"]) is bool
+    assert isinstance(
+        data["RSS_safe_longitudinal"], bool
     ), "Non-boolean RSS metric output for safe longitudinal distance."
-    assert (
-        type(data["RSS_safe_lateral"]) is bool
+    assert isinstance(
+        data["RSS_safe_lateral"], bool
     ), "Non-boolean RSS metric output for safe lateral distance."

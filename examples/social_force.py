@@ -24,7 +24,6 @@ from scenario_gym.xosc_interface import import_scenario, read_catalog
 
 
 class PedestrianConfig(ScenarioManager):
-
     PARAMETERS = {
         "timestep": 0.0333,
         "headless_rendering": False,
@@ -146,7 +145,6 @@ class PedestrianConfig(ScenarioManager):
 
 
 if __name__ == "__main__":
-
     config = PedestrianConfig()
     gym = scenario_gym.ScenarioGym(
         timestep=config.timestep,

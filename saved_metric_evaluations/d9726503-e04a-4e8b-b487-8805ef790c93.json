@@ -1,0 +1,11 @@
+{
+    "Lagging Metrics Post-Runtime": {
+        "ego_avg_speed": 5.885496970795882,
+        "ego_max_speed": 10.931215940802069,
+        "collision_timestamp": false,
+        "time_exposed_time_to_collision": {},
+        "time_integrated_time_to_collision": {},
+        "cumulative_space_occupancy": {},
+        "unified_risk_value": 0.2
+    }
+}
