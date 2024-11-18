@@ -78,10 +78,16 @@ if "show_plots" not in st.session_state:
 
 #######################
 # Paths for JSON files and video files
-json_dir = "C:\\Users\\ketha\\Desktop\\IITS_TSL\\Repos\\scenario_gym\\saved_metric_evaluations\\"
-video_dir = (
-    "C:\\Users\\ketha\\Desktop\\IITS_TSL\\Repos\\scenario_gym\\saved_recordings\\"
-)
+# Get the current directory of the script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Define paths relative to the current directory
+json_dir = os.path.join(current_dir, "saved_metric_evaluations")
+video_dir = os.path.join(current_dir, "saved_recordings")
+
+# json_dir = "C:\\Users\\ketha\\Desktop\\IITS_TSL\\Repos\\scenario_gym\\saved_metric_evaluations\\"
+# video_dir = (
+#     "C:\\Users\\ketha\\Desktop\\IITS_TSL\\Repos\\scenario_gym\\saved_recordings\\"
+# )
 
 # Get list of available JSON files
 json_files = [f for f in os.listdir(json_dir) if f.endswith(".json")]
