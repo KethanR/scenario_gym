@@ -95,11 +95,21 @@ with st.sidebar:
     st.title("📊 Scenario Metrics Dashboard")
     selected_file = st.selectbox("Select a Scenario", json_files)
 
-# Load selected JSON file
-json_file_path = os.path.join(json_dir, selected_file)
-with open(json_file_path, "r") as f:
-    data = json.load(f)
+    # Load selected JSON file
+    json_file_path = os.path.join(json_dir, selected_file)
+    with open(json_file_path, "r") as f:
+        data = json.load(f)
 
+    # Convert the dictionary to a JSON string
+    json_data = json.dumps(data, indent=4)
+
+    # Add a download button
+    st.download_button(
+        label="Download JSON file",
+        data=json_data,  # Pass the serialized JSON string
+        file_name=selected_file,  # Name of the file
+        mime="application/json"  # MIME type for JSON
+    )
 
 #######################
 # Dashboard Main Panel
