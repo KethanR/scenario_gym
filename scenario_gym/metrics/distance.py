@@ -77,7 +77,7 @@ class SafeLongDistance(Metric):
     """
 
     name = "safe_longitudinal_distance"
-    required_callbacks = [LaneAndLaneCenter]
+    # required_callbacks = [LaneAndLaneCenter]
     
     # BELOW ONLY APPLICABLE FOR CAR-TYPE VEHICLES. 
 
@@ -114,7 +114,7 @@ class SafeLongDistance(Metric):
     OUT_OF_BOUNDS = "out-of-bounds"
 
     def _reset(self, state: State) -> None:
-        self.laneandlanecenter_callback = self.callbacks[0]
+        # self.laneandlanecenter_callback = self.callbacks[0]
         self.ego = state.scenario.ego
         self.safe_long_dist_dict = {}
         self.safe_long_dist_brake_dict = {}
@@ -336,10 +336,10 @@ class SafeLongDistance(Metric):
                 vel_non_ego = state.velocities[entity][:2]
                 non_ego_road_network_info = state.get_road_info_at_entity(entity)
 
-                lane_center = self.laneandlanecenter_callback.current_lane
-                lane_index = self.laneandlanecenter_callback.final_lane_center_index
+                # lane_center = self.laneandlanecenter_callback.current_lane
+                # lane_index = self.laneandlanecenter_callback.final_lane_center_index
 
-                print(lane_center, lane_index)
+                # print(lane_center, lane_index)
                 
                 ego_relative_position_string = (
                     self._is_ego_leading_following_or_side(
