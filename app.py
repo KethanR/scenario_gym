@@ -187,33 +187,31 @@ with col[1]:
     video_file = selected_file.replace(".json", ".mp4")
     video_file_path = os.path.join(video_dir, video_file)
 
-    # # Check if the video file exists before displaying
-    # if os.path.exists(video_file_path):
-    #     st.video(video_file_path)
-    # else:
-    #     st.write(f"Video for {video_file_path} not found.")
+    # Check if the video file exists before displaying
+    if os.path.exists(video_file_path):
+        st.video(video_file_path)
+    else:
+        st.write(f"Video for {video_file_path} not found.")
 
+    # Check if the video file exists before displaying
+    if os.path.exists(video_dir):
+        st.write(f"Path for {video_dir} found!")
+    else:
+        st.write(f"Path for {video_dir} not found.")
+
+    # # Load the video and encode it as base64
+    # with open(video_file_path, "rb") as video_file:
+    #     video_data = video_file.read()
+    #     video_base64 = base64.b64encode(video_data).decode("utf-8")
+
+    # # Embed the video in HTML
     # video_html = f"""
     #     <video width="100%" height="auto" controls>
-    #         <source src="{video_file_path}" type="video/mp4">
+    #         <source src="data:video/mp4;base64,{video_base64}" type="video/mp4">
     #         Your browser does not support the video tag.
     #     </video>
     # """
     # st.markdown(video_html, unsafe_allow_html=True)
-
-    # Load the video and encode it as base64
-    with open(video_file_path, "rb") as video_file:
-        video_data = video_file.read()
-        video_base64 = base64.b64encode(video_data).decode("utf-8")
-
-    # Embed the video in HTML
-    video_html = f"""
-        <video width="100%" height="auto" controls>
-            <source src="data:video/mp4;base64,{video_base64}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    """
-    st.markdown(video_html, unsafe_allow_html=True)
 
 #---------- END: Scenario Playback Video ----------# 
 
