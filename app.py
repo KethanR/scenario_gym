@@ -136,8 +136,6 @@ col = st.columns((2, 3.5, 4.2), gap="medium")
 
 with col[0]:
 #---------- Capture Unified Risk Value (Continuous and Post-Runtime) ----------# 
-    st.markdown("###### Unified Risk Metric")
-
     # Continuous unified risk metric 
     # Initialize variables to track the maximum risk metric and associated timestep
     max_risk_value = float('-inf')
@@ -156,9 +154,29 @@ with col[0]:
 
     rounded_max_continuous_risk_value = round(max_risk_value, 2)
 
+    if rounded_max_continuous_risk_value == -np.inf:
+        rounded_max_continuous_risk_value = 0
+
+    # Determine the risk level and color
+    if 0 <= rounded_max_continuous_risk_value <= 0.33:
+        risk_level = "Low"
+        color = "green"
+    elif 0.33 < rounded_max_continuous_risk_value <= 0.66:
+        risk_level = "Medium"
+        color = "yellow"
+    else:
+        risk_level = "High"
+        color = "red"
+
+    st.markdown("###### Unified Risk Metric")
+    # Display risk level with dynamic styling
+
+    # Display the metric
     st.metric(
-        label="Continuous", value=rounded_max_continuous_risk_value
+        label="Continuous",
+        value=rounded_max_continuous_risk_value,
     )
+
 
     # Post-runtime unified risk metric 
     unified_metric_value = data["Lagging Metrics Post-Runtime"]["unified_risk_value"]
@@ -171,6 +189,10 @@ with col[0]:
 
     st.metric(
         label="Post-Runtime", value=rounded_unified_metric_value, delta=rounded_unified_risk_difference
+    )
+
+    st.metric(
+        label="Risk Level", value=risk_level,
     )
 
 #---------- END: Capture Unified Risk Value (Continuous and Post-Runtime) ----------#
@@ -271,7 +293,7 @@ with col[1]:
     # Update layout
     fig.update_layout(
         title={
-        "text": "Continuous Unified Risk Metric over Time",
+        "text": "Continuous Unified Risk Metric over Time [s]",
         "y": 0.95,  # Move the title closer to the plot (1.0 is the top of the figure)
         "x": 0.0,
         "yanchor": "top",
@@ -414,6 +436,20 @@ with col[1]:
             # # Display the chart in Streamlit
             # st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
+
+            metric_units = {
+                "time_to_collision": "[s]",
+                "distance_to_ego": "[m]",
+                "latitudinal_distance": "[m]",
+                "longitudinal_distance": "[m]",
+                "safe_latitudinal_distance": "[m]",
+                "safe_longitudinal_distance": "[m]",
+                "delta_v": "[m/s]",
+            }
+
+            # Get the unit for the metric, or use an empty string if not found
+            unit = metric_units.get(metric_name, "")
+
             # Plot the values for all vehicles
             fig, ax = plt.subplots()
             for vehicle in vehicles_data.keys():
@@ -425,8 +461,8 @@ with col[1]:
                 )
 
             ax.set_xlabel("Time (s)")
-            ax.set_ylabel(f"{metric_name.replace("_", " ").title()} Value")
-            ax.set_title(f"{metric_name.replace("_", " ").title()} over Time")
+            ax.set_ylabel(f"{metric_name.replace("_", " ").title()}{' ' + unit if unit else ''} Value")
+            ax.set_title(f"{metric_name.replace("_", " ").title()}{' ' + unit if unit else ''} over Time [s]")
             ax.legend(
                 loc="upper right", title="Legend", fontsize="small"
             )  # Set the legend title to "Legend"
@@ -498,8 +534,8 @@ with col[1]:
             # Set the x-axis label and add a legend with vehicle names and colors
             ax.set_xlabel("Vehicles")
             ax.set_xticks([])  # Remove x-axis labels
-            ax.set_ylabel(f"{metric_name.replace("_", " ").title()} Value")
-            ax.set_title(f'{metric_name.replace("_", " ").title()}')
+            ax.set_ylabel(f"{metric_name.replace("_", " ").title()} [s] Value")
+            ax.set_title(f'{metric_name.replace("_", " ").title()} [s]')
 
             # Always show the legend for vehicle/pedestrian colors
             ax.legend(
@@ -588,6 +624,17 @@ with col[2]:
 
 
 #---------- Visualise Metric Values ----------# 
+
+    # Replace specific text in the Metric column
+    df_min["Metric"] = df_min["Metric"].str.replace(r"\bdistance_to_ego\b", "distance_to_ego [m]", regex=True)
+    df_min["Metric"] = df_min["Metric"].str.replace(r"\blatitudinal_distance\b", "latitudinal_distance [m]", regex=True)
+    df_min["Metric"] = df_min["Metric"].str.replace(r"\blongitudinal_distance\b", "longitudinal_distance [m]", regex=True)
+    df_min["Metric"] = df_min["Metric"].str.replace(r"\bsafe_latitudinal_distance\b", "safe_latitudinal_distance [m]", regex=True)
+    df_min["Metric"] = df_min["Metric"].str.replace(r"\bsafe_longitudinal_distance\b", "safe_longitudinal_distance [m]", regex=True)
+    df_min["Metric"] = df_min["Metric"].str.replace(r"\bsafe_latitudinal_distance_brake\b", "safe_latitudinal_distance_brake [m]", regex=True)
+    df_min["Metric"] = df_min["Metric"].str.replace(r"\bsafe_longitudinal_distance_brake\b", "safe_longitudinal_distance_brake [m]", regex=True)
+    df_min["Metric"] = df_min["Metric"].str.replace(r"\btime_to_collision\b", "time_to_collision [s]", regex=True)
+    df_severity["Metric"] = df_severity["Metric"].str.replace("delta_v", "delta_v [m/s]")
 
     st.markdown('###### Criticality Metrics (Max-Extreme)')
     # Visualize the DataFrame using Streamlit
