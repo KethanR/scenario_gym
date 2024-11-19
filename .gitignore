@@ -132,7 +132,6 @@ dmypy.json
 *.code-workspace
 .vscode
 
-*.mp4
 .idea/
 
 # scenario data
