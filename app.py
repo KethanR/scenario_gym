@@ -9,6 +9,7 @@ import plotly.express as px
 import numpy as np
 import matplotlib.pyplot as plt
 import base64
+import xml.etree.ElementTree as ET
 
 #######################
 # Page configuration
@@ -77,22 +78,36 @@ st.markdown(
 if "show_plots" not in st.session_state:
     st.session_state.show_plots = False
 
+# Set the title as the main header
+st.markdown(
+    "<h1 style='text-align: center;'>Scenario Metrics Dashboard</h1>",
+    unsafe_allow_html=True
+)
+
 #######################
+
 # Paths for JSON files and video files
 # Get the current directory of the script
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # Define paths relative to the current directory
 json_dir = os.path.join(current_dir, "saved_metric_evaluations")
 video_dir = os.path.join(current_dir, "saved_recordings")
-
+description_dir = os.path.join(current_dir, "tests/input_files/Scenarios/")
 # Get list of available JSON files
 json_files = [f for f in os.listdir(json_dir) if f.endswith(".json")]
 
-
 #######################
+# Add a logo in the sidebar
+logo = os.path.join(current_dir, "saved_images/Dept_Civ_Env_Eng_sub_brand_large_RGB_White_safe_area.png")
+
+# # Optional: Add other sidebar elements
+# st.sidebar.header("Navigation")
+# st.sidebar.radio("Go to", ["Home", "Metrics", "About"])
+
 # Sidebar
 with st.sidebar:
-    st.title("📊 Scenario Metrics Dashboard")
+    # st.title("📊 Scenario Metrics Dashboard")
+    st.image(logo, use_container_width=True)
     selected_file = st.selectbox("Select a Scenario", json_files)
 
     # Load selected JSON file
@@ -116,12 +131,9 @@ with st.sidebar:
 col = st.columns((2, 3.5, 4.2), gap="medium")
 
 
-
-
-
 with col[0]:
 #---------- Capture Unified Risk Value (Continuous and Post-Runtime) ----------# 
-    st.markdown("#### Unified Risk Metric")
+    st.markdown("###### Unified Risk Metric")
 
     # Continuous unified risk metric 
     # Initialize variables to track the maximum risk metric and associated timestep
@@ -173,7 +185,7 @@ with col[0]:
     average_speed = data["Lagging Metrics Post-Runtime"]["ego_avg_speed"]
     rounded_average_speed = round(average_speed, 2)
 
-    st.markdown("#### Scenario Specifications")
+    st.markdown("###### Scenario Specifications")
     st.metric(
         label="Collision Timestamp", value=collision_timestamp
     )
@@ -191,7 +203,7 @@ with col[0]:
 with col[1]:
 #---------- Scenario Playback Video ----------# 
 
-    st.markdown("#### Scenario Playback")
+    st.markdown(f"###### Scenario Playback ({selected_file.replace(".json", "")})")
 
     # Display video associated with the selected JSON file (always visible)
     video_file = selected_file.replace(".json", ".mp4")
@@ -236,7 +248,7 @@ with col[1]:
     ax.grid(True)
 
     # Display the plot in Streamlit
-    st.markdown("#### Unified Risk Metric Plot")
+    st.markdown("###### Unified Risk Metric Plot")
     st.pyplot(fig)
 
 #---------- END: Continuous Risk Metric Plot ----------#  
@@ -290,6 +302,10 @@ with col[1]:
                                 short_vehicle_label = vehicle.split(
                                     "scenario_gym.entity.pedestrian."
                                 )[-1].replace(">", "")
+                            elif "misc" in vehicle:
+                                short_vehicle_label = vehicle.split(
+                                    "scenario_gym.entity.misc."
+                                )[-1].replace(">", "")
                             else:
                                 short_vehicle_label = (
                                     vehicle  # Fallback for other object types
@@ -321,7 +337,7 @@ with col[1]:
                     df["Time"],
                     df[vehicle],
                     marker="o",
-                    label=f"{metric_name} for {vehicle}",
+                    label=f"{vehicle}",
                 )
 
             ax.set_xlabel("Time (s)")
@@ -350,6 +366,10 @@ with col[1]:
                     elif "pedestrian" in vehicle:
                         short_vehicle_label = vehicle.split(
                             "scenario_gym.entity.pedestrian."
+                        )[-1].replace(">", "")
+                    elif "misc" in vehicle:
+                        short_vehicle_label = vehicle.split(
+                            "scenario_gym.entity.misc."
                         )[-1].replace(">", "")
                     else:
                         short_vehicle_label = vehicle  # Fallback for other object types
@@ -487,7 +507,7 @@ with col[2]:
 
 #---------- Visualise Metric Values ----------# 
 
-    st.markdown('#### Criticality Metrics (Max-Extreme)')
+    st.markdown('###### Criticality Metrics (Max-Extreme)')
     # Visualize the DataFrame using Streamlit
     st.dataframe(
         df_max,
@@ -505,7 +525,7 @@ with col[2]:
         }
     )
 
-    st.markdown('#### Criticality Metrics (Min-Extreme)')
+    st.markdown('###### Criticality Metrics (Min-Extreme)')
     # Visualize the DataFrame using Streamlit
     st.dataframe(
         df_min,
@@ -528,7 +548,7 @@ with col[2]:
     # Remove the specific metrics from the DataFrame
     df_severity = df_severity[~df_severity["Metric"].isin(metrics_to_remove_severity)]
 
-    st.markdown('#### Severity Metrics')
+    st.markdown('###### Severity Metrics')
     # Visualize the DataFrame using Streamlit
     st.dataframe(
         df_severity,
@@ -571,6 +591,31 @@ with col[2]:
 
 #---------- END: Visualise Metric Values ----------#
  
+
+
+#---------- About Stub ----------#
+
+    input_file = os.path.join(description_dir, selected_file.replace(".json", ".xosc"))
+    # Parse the .xosc file
+    tree = ET.parse(input_file)
+    root = tree.getroot()
+
+    # Find the <FileHeader> tag
+    file_header = root.find('FileHeader')
+
+    # Check if 'flavor' attribute exists
+    if file_header is not None:
+        # Extract flavor text, if present
+        flavor_text = file_header.get('flavor', 'No flavor text found')
+    
+    with st.expander('Scenario Description', expanded=False):
+        st.write(f'''
+            - :orange[**General Description and Points of Interest**]: {flavor_text} 
+            ''')
+
+#---------- END: About Stub ----------#
+
+
 
 #---------- About Stub ----------#
 

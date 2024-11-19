@@ -1,0 +1,6003 @@
+{
+    "2.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956491963282618
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.9564742601389105
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.9564565570609975
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "2.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956445935245924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956454432696085
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.9564756763879565
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.9564969201746765
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956637453602385
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.956956924229587
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.9572763989301425
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.957595877703536
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.959439149896436
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.961663503071664
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.963888004157261
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.967990756618511
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.97256307823742
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.9771354314478655
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.981955738858374
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.987767860168246
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.993580165507377
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.999615569889245
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.006543352070612
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.013472202914154
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.020402119255606
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.028269966693159
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.036765233918449
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.045263776399235
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "3.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.053765582297129
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.06397520066986
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.07419107000503
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.084413163260501
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.095414849232962
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.107585990466981
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.119767811835215
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.131960258610569
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.143548421866795
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.15499645440165
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.166458344646744
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.177795540910304
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.188592278464611
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.199402275220153
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.210171032091156
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.220734637063624
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.231310436603127
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.241898377284325
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.250892398104377
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.258832957869081
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.266791962800135
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.27476935235745
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.2767770691922715
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.278813339793454
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.2808781402039395
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.282060390643435
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.281905906124062
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.28178185248635
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.281280171537076
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.280195784171134
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "4.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.279140340345403
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.278113852651745
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.277170309957255
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.276262688015072
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.275376772840669
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.275677188067701
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.280647317985531
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.285621715035621
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.290600370483789
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.299513956155658
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.311049848747061
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.322586991323069
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.334125377984762
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.3449615999824065
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.355799822572191
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.366640036923938
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.3750652249469475
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.379865790145083
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.384666779889266
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.389468193351599
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.39640010299467
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.403865009743155
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.411330400153937
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.41938328993674
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.429784441093196
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.440185592519997
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.450586744215942
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.460565889126678
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.470263920624076
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.479962231886197
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "5.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.48798200928589
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.4948831040144395
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.501784784905708
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.50868705034377
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.515925803049495
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.523165943566846
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.5304074678931165
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.538883214809937
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.549208642035767
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.559534073311339
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.569859508620126
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.579942136469227
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.589964200179127
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.599986417020141
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.609484275414415
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.618851178819571
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.628218256651443
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.63825694790924
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.650984122901371
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.663715708071181
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.676451681475276
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.695864649728736
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.719764919500219
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.743712322051801
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.767706421460581
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "6.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.8022353879066415
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "6.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.836906224106013
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "6.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.8717170554707225
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "6.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.907544169855957
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "6.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.944853223201957
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "6.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.9823368418026925
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.022186186045518
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.06554428689454
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.109138032422921
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.152963642668375
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.202294339104647
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.253268637333866
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.304572394020667
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.35748688808821
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.415926589574651
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.474773181457959
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.534018246565646
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.595280737916605
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.658067656882471
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.721299022306727
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.78946152743283
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.861117826935743
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.933276152608535
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.005924437280022
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.077342114627259
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.14918955054095
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.221456699850659
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.289421479767354
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.350614429062306
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.412053715965685
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.473734547815313
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.525006918276299
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.573748811855284
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.622608293832903
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.669590436539451
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "7.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.70868136495053
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.747830884592421
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.787038292345837
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.821630436221387
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.853134154551103
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.884656199060114
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.91043577837015
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.932381886373202
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.954332127642848
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.971595955861105
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.985734096576524
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.35": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.38": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.41": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.45": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.48": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.51": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.55": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.58": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.61": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.65": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.980222403453757
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.966787371095151
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.950232205268717
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.932940554161242
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.915708821522026
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.8981959535112
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.879373777949972
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.860605145619035
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.841890362841784
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "8.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.821995427864948
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.80132256744524
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.780692550263463
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.760105647993745
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.734327913462845
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.708591786233862
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.68289759807068
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.655510043173475
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.625559917141949
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.595650311865352
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.564683550249839
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.532106753320514
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.499565559773986
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.467060336749746
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.433467117000557
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.399620926532126
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.365802194258467
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.333053880765146
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.30449249657872
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.275939680090302
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.247395510662276
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.218527388211179
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.189440888268365
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.160356475940846
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.132510353143775
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.10549752205765
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.078495709317966
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.05150501353231
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.018040354743585
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.984580063532482
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "9.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.951124188878339
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.91844402342764
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.886944809920266
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.855478358871734
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.824045020773752
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.794793639926349
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.76610326228247
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.73743589402644
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.710341432573117
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.689514677587002
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.668787907891161
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.645935383246124
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.614285424740144
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.582749630819961
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.551329264542309
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.521766794933002
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.493530315474088
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.465472539722967
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.437595250425371
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.40833161389882
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.379205971294828
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.350219766585631
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.320047265212954
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.288045452741635
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.256215182127937
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.22345346514815
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.189225863841624
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.155199127822977
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.121375781833638
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.0860164303706
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "10.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.05047968073953
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.015209973058878
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.980173288646111
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.9452837303368815
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.910711002727453
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.876459277884567
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.840108010186504
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.802539549513989
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.765393672437543
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.728676472074686
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.691546692166566
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.654909254487944
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.618771261824315
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.5832622526603775
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.548307963852627
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.513916136982839
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.478690133520032
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.442018491637658
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.406053190390242
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.370804569397202
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.335613683745953
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.301044147243588
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.26728024821186
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.2342626285076435
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.201817777894722
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.17025803660898
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.138911048928041
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.105816891032982
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.073779547245247
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.042813439735179
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "11.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.012136963944165
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.982072810693684
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.953177169236437
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.925464665998994
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.895560588499041
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.8668508016394085
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.839350345386954
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.811295756984199
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.78187247465216
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.753790080984139
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.726117953586268
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.698398290553405
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.67206889727618
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.647146294379939
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.62021624656134
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.593899022012691
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.5690732570729145
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.544877189581068
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.518750746457867
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.494267270905764
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.471445410511881
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.44816003028087
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.425168002885912
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.4039225455917945
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.384441094567341
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.362294479981276
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.342132809236985
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.323975067155224
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.304746135138959
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.2876768283310485
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "12.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.272784776871024
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.258903248716202
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.245555573464598
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.234572751823331
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.225967298855652
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.2178506030402625
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.211870098649832
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.208531825422493
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.207548497645582
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.208079818462329
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.211313093484197
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.216748855881083
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.2230658322262284
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.232350091797466
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.244588399615861
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.261196122702413
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.281696347452979
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.305111201712132
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.331408348858848
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.361394680608084
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.394396508826953
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.430367405435605
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.4693172680977495
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.511769845294391
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.5578022449936375
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.81": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.6073396472696695
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.85": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.671271962683594
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.742182037678834
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.817294807772933
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 6.905934194866429
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "13.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.001228698235642
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.1006813470761
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.202653228772602
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.302638528108868
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.406385619271786
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.513738679336442
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.623265594364433
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.735226156325619
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.850328031284002
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 7.968435094169838
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.092209645359043
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.35": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.218836776643602
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.38": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.348186683346137
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.41": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.481500490873945
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.45": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.617352364470994
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.48": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.755624163374872
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.51": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 8.894430856599875
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.55": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.032637854011695
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.58": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.172750317046987
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.61": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.314682259439497
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.65": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.444268827445445
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.68": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.571739316341464
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.71": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.700530536267472
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.75": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.82766710560426
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.78": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 9.94416071230844
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.81": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.85": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.88": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.91": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.95": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "14.98": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.01": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.05": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.08": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.11": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.15": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.18": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.21": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.25": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.28": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.31": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.35": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.38": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.41": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.45": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.48": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.51": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.55": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.58": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.61": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.65": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.68": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.71": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.75": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.78": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.81": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.85": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.88": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.91": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.95": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "15.98": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "16.01": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.5
+        }
+    ],
+    "Lagging Metrics Post-Runtime": {
+        "ego_avg_speed": 5.534258245045982,
+        "ego_max_speed": 10.379251003271147,
+        "collision_timestamp": false,
+        "time_exposed_time_to_collision": {},
+        "time_integrated_time_to_collision": {},
+        "cumulative_space_occupancy": {
+            "<scenario_gym.entity.pedestrian.Pedestrian object at 0x00000246E87C8320>": 13.8
+        },
+        "unified_risk_value": 0.39999999999999997
+    }
+}

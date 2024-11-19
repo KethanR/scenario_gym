@@ -1,0 +1,2192 @@
+{
+    "7.68": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "7.71": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "7.75": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "7.78": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "7.81": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "7.85": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "7.88": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "7.91": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "7.95": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "7.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 9.806787049163768
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -3.8163103314681566
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.8613978037673116
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.4874929485881125
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 9.26865126158862
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -3.8163103314635585
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.8613978037638477
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.494186246307706
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 8.740477320414378
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -3.8163103314681566
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.8613978037673116
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.500879544027249
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 8.21899942219415
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -3.754751820291184
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.8150462781027006
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.5039086714353385
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 7.708227540539545
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -3.604445831532625
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.700395772778589
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.504495323967959
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 7.214592552494655
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -3.541264228226254
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.6520372955564318
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.520066677758905
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 6.747467824006579
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -3.338477769567285
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.4948129636157934
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.516064562005576
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 6.308111094579651
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -3.206673998360796
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.3912669427799518
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.5101035263944125
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.25": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 5.89774863866644
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -3.206673998364483
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.3912669427828868
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.504142490783304
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.28": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 5.532835337053435
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.993993928893995
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.224177917932293
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.494952186375956
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.31": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 5.212910337888656
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.8549326344518646
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.1138072666508663
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.483609036104466
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.0
+        }
+    ],
+    "8.35": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.20408163265306123
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.937554850856623,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 9.315355080151168
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -83.50652309759127
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -16.021290549883624
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 9.174922120134266
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.887061966778372
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.1376490817011677
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.4722658858329325
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -0.6420632604884835
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.3333333333333333
+        }
+    ],
+    "8.38": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.10204081632653061
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.714584606304251,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 8.631568678404172
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -83.4876580454299
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -16.01515127854317
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 8.484761672637564
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.8308683676071498
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.092447795631551
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.464969792186079
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -0.6420632604885856
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.3333333333333333
+        }
+    ],
+    "8.41": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.10204081632653061
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.554118355506066,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 7.939729226353737
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -80.25630485246117
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -13.902958448762146
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 7.790833937662394
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.451360376436047
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.789393070428856
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.446332710642023
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -0.8696960388294794
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.3333333333333333
+        }
+    ],
+    "8.45": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.10204081632653061
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.451132536088702,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 7.248702630365205
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -80.2513652611277
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -13.898018857428674
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 7.096906202687252
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.4513603764369765
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.789393070429548
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.427695629097981
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -0.8696960388290558
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.3333333333333333
+        }
+    ],
+    "8.48": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.409656288602402,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 6.5587458219502786
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -80.25136526112396
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -13.898018857424933
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 6.40297846771208
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.451360376432754
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.7893930704264034
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.409058547553881
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -0.8696960388294794
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.3333333333333333
+        }
+    ],
+    "8.51": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.428782682034777,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 5.867446025022188
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -78.95331247901098
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -13.088790929887349
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 5.706471591814861
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.3702544026825936
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.7239342951970182
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.38915801656223
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -0.9564746985628618
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.3333333333333333
+        }
+    ],
+    "8.55": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.502347780475984,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 5.173945030513008
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -76.99876360265887
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -11.864090744279093
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 5.006096004534516
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.2497639134072647
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.6261843091021353
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.367362311398999
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.0865378873338853
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.3333333333333333
+        }
+    ],
+    "8.58": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.629829061879225,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 4.4833269345683595
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -76.97805812978615
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -11.857327456670316
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 4.303222494140178
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.2116654030758416
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.5942854640891768
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.342375419170716
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.0865378873340807
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.3333333333333333
+        }
+    ],
+    "8.61": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.806938824478876,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 3.7971650644812454
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -76.97106418004363
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -11.850333506931399
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 3.602963420868436
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.2116654030691985
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.5942854640839064
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.3195773563682796
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.0865378873338853
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.65": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 5.02423175442979,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 3.1149436894076095
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -74.47423226249416
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -10.21557805294347
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 2.89697428743036
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.179744418342996
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.5696265944308587
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.296328026834541
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.2526869226656618
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.68": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 5.278189850696719,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 2.4467297207501613
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -73.84700646896586
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -9.802973840441958
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 2.189552638950774
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.202093827244817
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.5861213868858162
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.272965880617914
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.2944322786011107
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.71": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 5.5645797615111725,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1.8101276953609353
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -73.8470064689941
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -9.80297384045387
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1.4821309904711601
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.2020938272440773
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.586121386885195
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.249603734401276
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.294432278599844
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.75": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 5.878104989694743,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1.2587391288780923
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -71.34978292367029
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -8.154208041033854
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.7690574436948263
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.3729133066070043
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.7295012577984574
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.2290637403742055
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.4622903652344261
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.78": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 6.214371269283547,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.9578874594649383
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -70.717652859812
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -7.733308391865243
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.05457092234432312
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.416461675862855
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.765662537804795
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.209229284394431
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.5045312694024808
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.81": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 6.5699405999247755,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1.129105184112419
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -131.78492325679704
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -36.087985960133096
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.6614291019945535
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.384678066602572
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.7394724662445358
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.181023622333387
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.504531269401494
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.85": [
+        {
+            "time_to_collision": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.0
+            }
+        },
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 6.94204730899361,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1.6321051287320318
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -132.93701825251992
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -36.4954368861123
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1.3773196699327082
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.37505883631509
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.7319889172971246
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.160239101661234
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "delta_v": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -1.543077664472662
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.88": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 7.3288857134701715,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 2.262326680899328
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -137.58258315191412
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -38.13356628163744
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 2.0990957891112836
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.336639754061152
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.702076411084286
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.138888698931018
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.91": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 7.727617514086014,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 2.9353761048897584
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -137.58258315193774
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -38.13356628164067
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 2.82087190828997
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.336639754059474
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.7020764110829707
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.1175382962007765
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.95": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 8.136494378355327,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 3.6274922121734674
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -137.592817509906
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -38.13677224493203
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 3.542648027468585
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.336639754061536
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.7020764110846032
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.0961878934705656
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "8.98": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 8.55791676527552,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 4.333796970388843
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -140.83892016600743
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -39.32595732494579
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 4.267717433206875
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.3115570079873615
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.6819721965666767
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.074430710824929
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.01": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 8.989575976768496,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 5.048298182506778
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -143.0175127397308
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -40.12157534769324
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 4.994982363318178
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.2948637598827917
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.6685801053706215
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.052402341569126
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.05": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 9.427895933962677,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 5.766076945894975
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -143.0207940532057
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -40.12485666117267
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 5.723229388541549
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.303646100799053
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.6730568017533978
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 4.018507544624778
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.08": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 9.871989458057296,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 6.4860452203167585
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -143.02079405323934
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -40.12485666118113
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 6.450462775123986
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "safe_latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -2.3036461007986704
+            }
+        },
+        {
+            "safe_latitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": -1.67305680175308
+            }
+        },
+        {
+            "latitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 3.995785207868204
+            }
+        },
+        {
+            "latitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 0
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.11": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 7.209276901559341
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -146.04324685590456
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -41.366762868059176
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 7.178477926642418
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.15": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 7.933404269718162
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -146.0432468559016
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -41.36676286805622
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 7.906493078160877
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.18": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 8.658202595820246
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -146.04324685587127
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -41.36676286804676
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 8.63450822967928
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.21": [
+        {
+            "distance_to_ego": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 9.381902367366113
+            }
+        },
+        {
+            "safe_longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -146.0518427001396
+            }
+        },
+        {
+            "safe_longitudinal_distance_brake": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": -41.48643709046476
+            }
+        },
+        {
+            "longitudinal_distance": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 9.36065360093961
+            }
+        },
+        {
+            "longitudinal_risk": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.25": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.28": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.31": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.35": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.38": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.41": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1,
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "9.45": [
+        {
+            "space_occupancy_index": {
+                "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1
+            }
+        },
+        {
+            "continuous_unified_risk_metric": 0.41666666666666663
+        }
+    ],
+    "Lagging Metrics Post-Runtime": {
+        "ego_avg_speed": 5.391251042737076,
+        "ego_max_speed": 10.931215940802069,
+        "collision_timestamp": 8.479999999999979,
+        "time_exposed_time_to_collision": {
+            "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.1399999999999988
+        },
+        "time_integrated_time_to_collision": {
+            "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 0.8959999999999947
+        },
+        "cumulative_space_occupancy": {
+            "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87CB740>": 1.7300000000000004,
+            "<scenario_gym.entity.vehicle.Vehicle object at 0x00000246E87C8D10>": 1.3999999999999986
+        },
+        "unified_risk_value": 1
+    }
+}

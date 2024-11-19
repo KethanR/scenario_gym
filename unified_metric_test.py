@@ -30,7 +30,7 @@ plot_bool = False
 render_bool = True
 print_metrics_bool = True
 unify_metrics_bool = True
-loop_bool = False
+loop_bool = True
 
 
 def load_and_rollout_scenario(
