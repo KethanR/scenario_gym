@@ -10,6 +10,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import base64
 import xml.etree.ElementTree as ET
+import plotly.graph_objects as go
+from plotly.colors import qualitative
 
 #######################
 # Page configuration
@@ -26,51 +28,53 @@ alt.themes.enable("dark")
 # CSS styling
 st.markdown(
     """
-<style>
+        <style>
+            .block-container {
+                padding-left: 2rem;
+                padding-right: 2rem;
+                padding-top: 2.5rem;
+                padding-bottom: 0rem;
+                margin-bottom: -7rem;
+            }
 
-[data-testid="block-container"] {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 0rem;
-    margin-bottom: -7rem;
-}
+            [data-testid="stAppViewBlockContainer"] {
+                max-width: 1200px;
+            }
 
-[data-testid="stVerticalBlock"] {
-    padding-left: 0rem;
-    padding-right: 0rem;
-}
+            [data-testid="stVerticalBlock"] {
+                padding-left: 0rem;
+                padding-right: 0rem;
+            }
 
-[data-testid="stMetric"] {
-    background-color: #393939;
-    text-align: center;
-    padding: 15px 0;
-}
+            [data-testid="stMetric"] {
+                background-color: #393939;
+                text-align: center;
+                padding: 15px 0;
+            }
 
-[data-testid="stMetricLabel"] {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+            [data-testid="stMetricLabel"] {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
 
-[data-testid="stMetricDeltaIcon-Up"] {
-    position: relative;
-    left: 38%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
+            [data-testid="stMetricDeltaIcon-Up"] {
+                position: relative;
+                left: 38%;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
 
-[data-testid="stMetricDeltaIcon-Down"] {
-    position: relative;
-    left: 38%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
-</style>
-""",
+            [data-testid="stMetricDeltaIcon-Down"] {
+                position: relative;
+                left: 38%;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
+        </style>
+    """,
     unsafe_allow_html=True,
 )
 
@@ -78,11 +82,10 @@ st.markdown(
 if "show_plots" not in st.session_state:
     st.session_state.show_plots = False
 
-# Set the title as the main header
-st.markdown(
-    "<h1 style='text-align: center;'>Scenario Metrics Dashboard</h1>",
-    unsafe_allow_html=True
-)
+st.title("Scenario Metrics Dashboard")
+
+# Add space below the title
+st.markdown("<div style='margin-bottom: 20px;'></div>", unsafe_allow_html=True)
 
 #######################
 
@@ -187,13 +190,13 @@ with col[0]:
 
     st.markdown("###### Scenario Specifications")
     st.metric(
-        label="Collision Timestamp", value=collision_timestamp
+        label="Collision Timestamp [s]", value=collision_timestamp
     )
     st.metric(
-        label="Maximum Speed", value=rounded_maximum_speed
+        label="Maximum Speed [km/s]", value=rounded_maximum_speed
     )
     st.metric(
-        label="Average Speed", value=rounded_average_speed
+        label="Average Speed [km/s]", value=rounded_average_speed
     )
 
 #---------- END: Collision Specifications ----------#
@@ -239,17 +242,50 @@ with col[1]:
         {"Timestep": timesteps, "Continuous Unified Risk Metric": risk_metrics}
     )
 
-    # Plot the continuous unified risk metric over timesteps
-    fig, ax = plt.subplots()
-    ax.plot(df["Timestep"], df["Continuous Unified Risk Metric"], marker="o", color="b")
-    ax.set_xlabel("Timestep")
-    ax.set_ylabel("Continuous Unified Risk Metric")
-    ax.set_title("Continuous Unified Risk Metric Over Time")
-    ax.grid(True)
+    # # Plot the continuous unified risk metric over timesteps
+    # fig, ax = plt.subplots()
+    # ax.plot(df["Timestep"], df["Continuous Unified Risk Metric"], marker="o", color="b")
+    # ax.set_xlabel("Timestep")
+    # ax.set_ylabel("Continuous Unified Risk Metric")
+    # ax.set_title("Continuous Unified Risk Metric Over Time")
+    # ax.grid(True)
 
-    # Display the plot in Streamlit
-    st.markdown("###### Unified Risk Metric Plot")
-    st.pyplot(fig)
+    # # Display the plot in Streamlit
+    # st.markdown("###### Unified Risk Metric Plot")
+    # st.pyplot(fig)
+
+    # Create a Plotly figure
+    fig = go.Figure()
+
+    fig.add_trace(
+        go.Scatter(
+            x=df["Timestep"],
+            y=df["Continuous Unified Risk Metric"],
+            mode="lines+markers",
+            marker=dict(size=8, color="rgb(225, 90, 83)", symbol="circle"),
+            line=dict(width=2, color="rgb(225, 90, 83)"),  # Color extracted from the image
+            name="Risk Metric",
+        )
+    )
+
+    # Update layout
+    fig.update_layout(
+        title={
+        "text": "Continuous Unified Risk Metric over Time",
+        "y": 0.95,  # Move the title closer to the plot (1.0 is the top of the figure)
+        "x": 0.0,
+        "yanchor": "top",
+        },
+        xaxis_title="Timestep [s]",
+        yaxis_title="Continuous Unified Risk Metric",
+        showlegend=False,
+        margin=dict(
+        t=50,
+        )
+    )
+
+    # Display the plot in Streamlit with modebar hidden
+    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
 #---------- END: Continuous Risk Metric Plot ----------#  
 
@@ -330,6 +366,54 @@ with col[1]:
             for vehicle, time_value_dict in vehicles_data.items():
                 df[vehicle] = [time_value_dict.get(t, None) for t in time_stamps]
 
+            # # Create a Plotly figure
+            # fig = go.Figure()
+
+            # # Add traces for each vehicle
+            # color_palette = qualitative.Light24
+            # for i, vehicle in enumerate(vehicles_data.keys()):
+            #     fig.add_trace(
+            #         go.Scatter(
+            #             x=df["Time"],
+            #             y=df[vehicle],
+            #             mode="lines+markers",
+            #             marker=dict(
+            #                 size=6,
+            #                 color=color_palette[i % len(color_palette)],
+            #                 symbol="circle",
+            #             ),
+            #             line=dict(
+            #                 width=2, color=color_palette[i % len(color_palette)]
+            #             ),  # Light colors for multiple vehicles
+            #             name=vehicle,
+            #         )
+            #     )
+
+            # # Update layout with the provided style
+            # fig.update_layout(
+            #     title={
+            #         "text": f"{metric_name.replace("_", " ").capitalize()} Over Time",
+            #         "y": 0.95,
+            #         "x": 0.0,
+            #         "yanchor": "top",
+            #     },
+            #     xaxis_title="Time (s)",
+            #     yaxis_title=f"{metric_name.capitalize()} Value",
+            #     legend=dict(
+            #         x=0.5,  # Center horizontally (adjust as needed)
+            #         y=1,  # Place at the top of the plot
+            #         xanchor="center",  # Align the legend to the center
+            #         orientation="h",  # Horizontal legend layout
+            #         bgcolor="rgba(255,255,255,0.7)",  # Semi-transparent background
+            #         bordercolor="black",
+            #         borderwidth=1,
+            #     ),
+            #     margin=dict(t=50),
+            # )
+
+            # # Display the chart in Streamlit
+            # st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+
             # Plot the values for all vehicles
             fig, ax = plt.subplots()
             for vehicle in vehicles_data.keys():
@@ -341,8 +425,8 @@ with col[1]:
                 )
 
             ax.set_xlabel("Time (s)")
-            ax.set_ylabel(f"{metric_name} Value")
-            ax.set_title(f"{metric_name} over Time")
+            ax.set_ylabel(f"{metric_name.replace("_", " ").title()} Value")
+            ax.set_title(f"{metric_name.replace("_", " ").title()} over Time")
             ax.legend(
                 loc="upper right", title="Legend", fontsize="small"
             )  # Set the legend title to "Legend"
@@ -414,8 +498,8 @@ with col[1]:
             # Set the x-axis label and add a legend with vehicle names and colors
             ax.set_xlabel("Vehicles")
             ax.set_xticks([])  # Remove x-axis labels
-            ax.set_ylabel(f"{metric_name} Value")
-            ax.set_title(f'{metric_name.replace("_", " ").capitalize()}')
+            ax.set_ylabel(f"{metric_name.replace("_", " ").title()} Value")
+            ax.set_title(f'{metric_name.replace("_", " ").title()}')
 
             # Always show the legend for vehicle/pedestrian colors
             ax.legend(
@@ -426,12 +510,10 @@ with col[1]:
             st.pyplot(fig)
 
         # First plot the cumulative space occupancy bar chart at the top
-        st.markdown(f"##### Cumulative Space Occupancy Bar Chart")
         plot_bar_chart("cumulative_space_occupancy")
 
         # Loop through each metric and create a plot for each (original functionality)
         for metric in metrics_to_plot:
-            st.markdown(f"#### {metric.capitalize()} Plot")
             plot_metric(metric)
 
 #---------- END: Additional Metric Plots ----------#
@@ -608,7 +690,7 @@ with col[2]:
         # Extract flavor text, if present
         flavor_text = file_header.get('flavor', 'No flavor text found')
     
-    with st.expander('Scenario Description', expanded=False):
+    with st.expander('Scenario Description', expanded=True):
         st.write(f'''
             - :orange[**General Description and Points of Interest**]: {flavor_text} 
             ''')
@@ -619,7 +701,7 @@ with col[2]:
 
 #---------- About Stub ----------#
 
-    with st.expander('About', expanded=False):
+    with st.expander('About', expanded=True):
         st.write('''
             - :orange[**Criticality Metrics**]: Quantifies the probability of a collision occurring. 
             - :orange[**Severity Metrics**]: Captures the extent of damage or injury caused by a collision. 
