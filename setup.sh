@@ -1,4 +1,6 @@
 mkdir -p ~/.streamlit/
+[theme]
+base = "light"
 
 echo "\
 [general]\n\

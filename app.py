@@ -22,8 +22,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-alt.themes.enable("dark")
-
 #######################
 # CSS styling
 st.markdown(
