@@ -236,7 +236,7 @@ with col[1]:
 
     # Check if the video file exists before displaying
     if os.path.exists(video_file_path):
-        st.video(video_file_path)
+        st.video(video_file_path, loop=True, autoplay=True, muted=True)
     else:
         st.write(f"Video for {video_file_path} not found.")
 
@@ -294,10 +294,11 @@ with col[1]:
     fig.update_layout(
         title={
         "text": "Continuous Unified Risk Metric over Time [s]",
-        "y": 0.95,  # Move the title closer to the plot (1.0 is the top of the figure)
+        "y": 1,  # Move the title closer to the plot (1.0 is the top of the figure)
         "x": 0.0,
         "yanchor": "top",
         },
+        yaxis = dict(range=[0,1]),
         xaxis_title="Timestep [s]",
         yaxis_title="Continuous Unified Risk Metric",
         showlegend=False,
