@@ -168,26 +168,6 @@ with col[0]:
         risk_level = "High"
         color = "red"
 
-    # Custom CSS to style metric boxes for light mode
-    st.markdown(
-        """
-        <style>
-        /* Style the metric container */
-        div[data-testid="metric-container"] {
-            background-color: #f0f2f6; /* Light background color */
-            border: 1px solid #e0e0e0; /* Border color for better visibility */
-            border-radius: 8px; /* Rounded corners */
-            padding: 10px; /* Padding inside the box */
-        }
-        /* Style the font color */
-        div[data-testid="metric-container"] > div {
-            color: #333333; /* Dark font color for light mode */
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
     st.markdown("###### Unified Risk Metric")
     # Display risk level with dynamic styling
 
