@@ -168,6 +168,26 @@ with col[0]:
         risk_level = "High"
         color = "red"
 
+    # Custom CSS to style metric boxes for light mode
+    st.markdown(
+        """
+        <style>
+        /* Style the metric container */
+        div[data-testid="metric-container"] {
+            background-color: #f0f2f6; /* Light background color */
+            border: 1px solid #e0e0e0; /* Border color for better visibility */
+            border-radius: 8px; /* Rounded corners */
+            padding: 10px; /* Padding inside the box */
+        }
+        /* Style the font color */
+        div[data-testid="metric-container"] > div {
+            color: #333333; /* Dark font color for light mode */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
     st.markdown("###### Unified Risk Metric")
     # Display risk level with dynamic styling
 
@@ -197,8 +217,6 @@ with col[0]:
 
 #---------- END: Capture Unified Risk Value (Continuous and Post-Runtime) ----------#
 
-
-
 #---------- Scenario Specifications ----------#
     
     collision_timestamp = data["Lagging Metrics Post-Runtime"]["collision_timestamp"]
@@ -222,7 +240,6 @@ with col[0]:
     )
 
 #---------- END: Collision Specifications ----------#
-
 
 
 with col[1]:
@@ -723,7 +740,7 @@ with col[2]:
  
 
 
-#---------- About Stub ----------#
+#---------- Scenario Description Stub ----------#
 
     input_file = os.path.join(description_dir, selected_file.replace(".json", ".xosc"))
     # Parse the .xosc file
@@ -743,14 +760,16 @@ with col[2]:
             - :orange[**General Description and Points of Interest**]: {flavor_text} 
             ''')
 
-#---------- END: About Stub ----------#
+#---------- END: Scenario Description Stub ----------#
 
 
 
 #---------- About Stub ----------#
 
-    with st.expander('About', expanded=True):
+    with st.expander('Definitions', expanded=True):
         st.write('''
+            - :orange[**Continuous Unified Risk**]: Primarily a :orange[**leading**] risk measure, this calculates the unified risk at every timestep. Does not incorporate lagging metrics.  
+            - :orange[**Post-Runtime Unified Risk**]: Primarily a :orange[**lagging**] risk measure, this generates a unified risk score at the end of simulation. Incorporates lagging metrics.    
             - :orange[**Criticality Metrics**]: Quantifies the probability of a collision occurring. 
             - :orange[**Severity Metrics**]: Captures the extent of damage or injury caused by a collision. 
             ''')
