@@ -769,6 +769,8 @@ with col[2]:
             - :orange[**Post-Runtime Unified Risk**]: Primarily a :orange[**lagging**] risk measure, this generates a unified risk score at the end of simulation. Incorporates lagging metrics.    
             - :orange[**Criticality Metrics**]: Quantifies the probability of a collision occurring. 
             - :orange[**Severity Metrics**]: Captures the extent of damage or injury caused by a collision. 
+            - :orange[**Leading Measures**]: Metrics that predict or influence the future performance of the autonomous vehicle. These are indicators of potential outcomes based on system inputs, behaviors, and decisions.
+            - :orange[**Lagging Measures**]: Metrics that evaluate the outcomes of the autonomous vehicle's performance after events occur. These reflect system effectiveness and overall safety over a period of time.
             ''')
 
 #---------- END: About Stub ----------#
