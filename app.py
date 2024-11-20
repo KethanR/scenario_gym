@@ -50,12 +50,21 @@ st.markdown(
                 background-color: #393939;
                 text-align: center;
                 padding: 15px 0;
+                color: white;
             }
 
             [data-testid="stMetricLabel"] {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                color: white;
+            }
+
+            [data-testid="stMetricValue"] {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
             }
 
             [data-testid="stMetricDeltaIcon-Up"] {
@@ -101,8 +110,9 @@ json_files = [f for f in os.listdir(json_dir) if f.endswith(".json")]
 
 #######################
 # Add a logo in the sidebar
-logo = os.path.join(current_dir, "saved_images/Dept_Civ_Env_Eng_sub_brand_large_RGB_White_safe_area.png")
-
+dark_logo = os.path.join(current_dir, "saved_images/Dept_Civ_Env_Eng_sub_brand_large_RGB_White_safe_area.png")
+light_logo = os.path.join(current_dir, "saved_images/Dept_Civ_Env_Eng_sub_brand_large_RGB_black_safe_area.png")
+logo = os.path.join(current_dir, "saved_images/IMPERIAL_logo_RGB_Blue_safe_area_2024.png")
 # # Optional: Add other sidebar elements
 # st.sidebar.header("Navigation")
 # st.sidebar.radio("Go to", ["Home", "Metrics", "About"])
@@ -110,7 +120,14 @@ logo = os.path.join(current_dir, "saved_images/Dept_Civ_Env_Eng_sub_brand_large_
 # Sidebar
 with st.sidebar:
     # st.title("📊 Scenario Metrics Dashboard")
-    st.image(logo, use_container_width=True)
+    st.image(light_logo, use_container_width=True)
+
+    # Display appropriate image based on theme mode
+    # if theme_mode == "dark":
+    #     st.image(dark_logo, use_container_width=True)
+    # else:
+    #     st.image(light_logo, use_container_width=True)
+
     selected_file = st.selectbox("Select a Scenario", json_files)
 
     # Load selected JSON file
@@ -170,6 +187,8 @@ with col[0]:
 
     st.markdown("###### Unified Risk Metric")
     # Display risk level with dynamic styling
+
+
 
     # Display the metric
     st.metric(
