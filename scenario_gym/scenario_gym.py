@@ -317,3 +317,4 @@ class ScenarioGym:
             elif value is not None:
                 values[metric.name] = value
         return values
+    
