@@ -1,5 +1,7 @@
 import numpy as np
+
 from scenario_gym.state import State
+
 from .base import Metric
 
 

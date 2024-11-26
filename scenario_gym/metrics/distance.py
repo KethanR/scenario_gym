@@ -103,7 +103,7 @@ class SafeLongDistance(Metric):
     # Unit: m/s^2
     accRearMaxBrake = 4
 
-    # Class attributes for function _is_ego_leading_following_or_side -> str output. 
+    # Class attributes for function _is_ego_leading_following_or_side -> str output.
     LEADING = "leading"
     FOLLOWING = "following"
     SIDEBYSIDE = "side-by-side"
@@ -133,7 +133,7 @@ class SafeLongDistance(Metric):
 
         if "Lane" not in road_network_types:
             return entity_position, entity_velocity, 0, 0
-        
+
         for lane_index, road_network_type in enumerate(road_network_types):
             if road_network_type == "Lane":
                 lane = road_network_ids[lane_index]
@@ -150,9 +150,21 @@ class SafeLongDistance(Metric):
         current_lane = road_network_ids[final_lane_index]
         final_lane_center_index = final_lane_center_index
 
-        return entity_position, entity_velocity, current_lane, final_lane_center_index
-    
-    def _is_ego_leading_following_or_side(self, pos1, current_lane_vehicle_1, final_lane_center_index_vehicle_1, pos2, current_lane_vehicle_2) -> str:
+        return (
+            entity_position,
+            entity_velocity,
+            current_lane,
+            final_lane_center_index,
+        )
+
+    def _is_ego_leading_following_or_side(
+        self,
+        pos1,
+        current_lane_vehicle_1,
+        final_lane_center_index_vehicle_1,
+        pos2,
+        current_lane_vehicle_2,
+    ) -> str:
         """
         Dev Note: Safe longitudinal distance is currently limited.
 
@@ -270,11 +282,12 @@ class SafeLongDistance(Metric):
 
         return safeLonDis, safeLonDisBrake
 
-    
-    def _long_risk_index(self, safe_distance, safe_distance_brake, distance) -> float:
+    def _long_risk_index(
+        self, safe_distance, safe_distance_brake, distance
+    ) -> float:
         """
         Calculate the longitudinal risk index [0,1].
-        
+
         safeDistance: safe longitudinal distance (use function SafeLonDistance).
         safeDistanceBrake: safe longitudinal distance under max braking capacity
         (use function SafeLonDistance with max braking acceleration)
@@ -303,9 +316,19 @@ class SafeLongDistance(Metric):
                     continue
 
                 # Get ego vehicle pose, velocity, and lane.
-                pos_ego, vel_ego, ego_current_lane, ego_lane_center_index = self._pose_velocity_lane_and_lane_center(self.ego, state)
+                (
+                    pos_ego,
+                    vel_ego,
+                    ego_current_lane,
+                    ego_lane_center_index,
+                ) = self._pose_velocity_lane_and_lane_center(self.ego, state)
                 # Get non_ego vehicle pose, velocity, and lane.
-                pos_non_ego, vel_non_ego, non_ego_current_lane, non_ego_lane_center_index = self._pose_velocity_lane_and_lane_center(entity, state)
+                (
+                    pos_non_ego,
+                    vel_non_ego,
+                    non_ego_current_lane,
+                    non_ego_lane_center_index,
+                ) = self._pose_velocity_lane_and_lane_center(entity, state)
 
                 ego_relative_position_string = (
                     self._is_ego_leading_following_or_side(
@@ -313,7 +336,7 @@ class SafeLongDistance(Metric):
                         ego_current_lane,
                         ego_lane_center_index,
                         pos_non_ego,
-                        non_ego_current_lane
+                        non_ego_current_lane,
                     )
                 )
 
@@ -417,7 +440,7 @@ class SafeLatDistance(Metric):
     # Unit: m/s^2
     accMaxBrake = 4
 
-    # Class attributes for function _is_ego_left_or_right -> str output. 
+    # Class attributes for function _is_ego_left_or_right -> str output.
     RIGHT = "right"
     LEFT = "left"
     INLINE = "inline"
@@ -448,7 +471,7 @@ class SafeLatDistance(Metric):
 
         if "Lane" not in road_network_types:
             return entity_position, entity_velocity, 0, 0
-        
+
         for lane_index, road_network_type in enumerate(road_network_types):
             if road_network_type == "Lane":
                 lane = road_network_ids[lane_index]
@@ -465,9 +488,21 @@ class SafeLatDistance(Metric):
         current_lane = road_network_ids[final_lane_index]
         final_lane_center_index = final_lane_center_index
 
-        return entity_position, entity_velocity, current_lane, final_lane_center_index
+        return (
+            entity_position,
+            entity_velocity,
+            current_lane,
+            final_lane_center_index,
+        )
 
-    def _is_ego_left_or_right(self, pos1, current_lane_vehicle_1, final_lane_center_index_vehicle_1, pos2, current_lane_vehicle_2) -> str:
+    def _is_ego_left_or_right(
+        self,
+        pos1,
+        current_lane_vehicle_1,
+        final_lane_center_index_vehicle_1,
+        pos2,
+        current_lane_vehicle_2,
+    ) -> str:
         """
         Dev Note: Safe latitudinal distance is currently limited.
 
@@ -620,7 +655,9 @@ class SafeLatDistance(Metric):
 
         return safeLatDis, safeLatDisBrake
 
-    def _lat_risk_index(self, safe_distance, safe_distance_brake, distance) -> float:
+    def _lat_risk_index(
+        self, safe_distance, safe_distance_brake, distance
+    ) -> float:
         """
         Calculate the latitudinal risk index [0,1].
 
@@ -652,29 +689,53 @@ class SafeLatDistance(Metric):
                     continue
 
                 # Get ego vehicle pose, velocity, and lane.
-                pos_ego, vel_ego, ego_current_lane, ego_lane_center_index = self._pose_velocity_lane_and_lane_center(self.ego, state)
+                (
+                    pos_ego,
+                    vel_ego,
+                    ego_current_lane,
+                    ego_lane_center_index,
+                ) = self._pose_velocity_lane_and_lane_center(self.ego, state)
                 # Get non_ego vehicle pose, velocity, and lane.
-                pos_non_ego, vel_non_ego, non_ego_current_lane, non_ego_lane_center_index = self._pose_velocity_lane_and_lane_center(entity, state)
+                (
+                    pos_non_ego,
+                    vel_non_ego,
+                    non_ego_current_lane,
+                    non_ego_lane_center_index,
+                ) = self._pose_velocity_lane_and_lane_center(entity, state)
 
-                check = self._is_ego_left_or_right(pos_ego, ego_current_lane, ego_lane_center_index, pos_non_ego, non_ego_current_lane)
+                check = self._is_ego_left_or_right(
+                    pos_ego,
+                    ego_current_lane,
+                    ego_lane_center_index,
+                    pos_non_ego,
+                    non_ego_current_lane,
+                )
 
                 if check is None or check == "inline":
                     continue
                 elif check == "right":
-                    speed_right = self._latitudinal_speed(vel_ego, ego_current_lane, ego_lane_center_index)
-                    speed_left = self._latitudinal_speed(vel_non_ego, non_ego_current_lane, non_ego_lane_center_index)
+                    speed_right = self._latitudinal_speed(
+                        vel_ego, ego_current_lane, ego_lane_center_index
+                    )
+                    speed_left = self._latitudinal_speed(
+                        vel_non_ego, non_ego_current_lane, non_ego_lane_center_index
+                    )
                 elif check == "left":
                     speed_right = self._latitudinal_speed(
                         vel_non_ego, non_ego_current_lane, non_ego_lane_center_index
                     )
-                    speed_left = self._latitudinal_speed(vel_ego, ego_current_lane, ego_lane_center_index)
+                    speed_left = self._latitudinal_speed(
+                        vel_ego, ego_current_lane, ego_lane_center_index
+                    )
                 else:
                     continue
 
                 safeLatDis, safeLatDisBrake = self._calculate_safe_lat_dist(
                     speed_left, speed_right
                 )
-                lat_dist = self._latitudinal_distance(pos_ego, pos_non_ego, ego_current_lane, ego_lane_center_index)
+                lat_dist = self._latitudinal_distance(
+                    pos_ego, pos_non_ego, ego_current_lane, ego_lane_center_index
+                )
 
                 lat_risk = self._lat_risk_index(
                     safeLatDis, safeLatDisBrake, lat_dist

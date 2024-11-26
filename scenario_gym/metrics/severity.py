@@ -120,8 +120,8 @@ class DeltaV(Metric):
                 if not self.ego_time_to_collision_bool_and_value[0]:
                     continue
 
-                elif (not isinstance(entity, Pedestrian)
-                    and not isinstance(entity, Vehicle)
+                elif not isinstance(entity, Pedestrian) and not isinstance(
+                    entity, Vehicle
                 ):
                     continue
 
