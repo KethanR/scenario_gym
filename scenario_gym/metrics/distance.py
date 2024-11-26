@@ -116,28 +116,31 @@ class SafeLongDistance(Metric):
         self.long_dist_dict = {}
         self.long_risk_dict = {}
 
-    def _get_lane_and_lane_center_index(
-        self, entity_pos, entity_road_network_information
-    ) -> tuple:
-        # Initialize variables to deduce the closest lane center coordinates
+    def _pose_velocity_lane_and_lane_center(self, entity, state) -> tuple:
+        # Initialize variables to deduce the closest lane center coordinates.
         min_distance = float("inf")
         final_lane_center_index = None
         final_lane_index = None
+
+        # Get entity vehicle pose, velocity, and road network information.
+        entity_position = state.poses[entity][:2]
+        entity_velocity = state.velocities[entity][:2]
+        entity_road_network_information = state.get_road_info_at_entity(entity)
+
+        # Get lane type and lane ID.
         road_network_types = entity_road_network_information[0]
         road_network_ids = entity_road_network_information[1]
 
         if "Lane" not in road_network_types:
-            return 0, 0
-
-        for lane_index, road_network_type in enumerate(
-            road_network_types
-        ):
+            return entity_position, entity_velocity, 0, 0
+        
+        for lane_index, road_network_type in enumerate(road_network_types):
             if road_network_type == "Lane":
                 lane = road_network_ids[lane_index]
                 # Loop through lane center points to find the closest one to entity
                 for lane_center_index, coords in enumerate(lane.center.coords):
                     # Compute the Euclidean distance between ego and lane center
-                    distance = abs(np.linalg.norm(entity_pos - coords))
+                    distance = abs(np.linalg.norm(entity_position - coords))
                     # Update the closest lane center index
                     if distance < min_distance:
                         min_distance = distance
@@ -145,24 +148,16 @@ class SafeLongDistance(Metric):
                         final_lane_index = lane_index
 
         current_lane = road_network_ids[final_lane_index]
+        final_lane_center_index = final_lane_center_index
 
-        return current_lane, final_lane_center_index
-
-    def _is_ego_leading_following_or_side(self, pos1, roadinfo1, pos2, roadinfo2) -> str:
+        return entity_position, entity_velocity, current_lane, final_lane_center_index
+    
+    def _is_ego_leading_following_or_side(self, pos1, current_lane_vehicle_1, final_lane_center_index_vehicle_1, pos2, current_lane_vehicle_2) -> str:
         """
         Dev Note: Safe longitudinal distance is currently limited.
 
         To instances where both vehicles are in the same lane.
         """
-        (
-            current_lane_vehicle_1,
-            final_lane_center_index_vehicle_1,
-        ) = self._get_lane_and_lane_center_index(pos1, roadinfo1)
-        (
-            current_lane_vehicle_2,
-            final_lane_center_index_vehicle_2,
-        ) = self._get_lane_and_lane_center_index(pos2, roadinfo2)
-
         if current_lane_vehicle_1 == 0 or current_lane_vehicle_2 == 0:
             return self.OUT_OF_BOUNDS
 
@@ -193,15 +188,8 @@ class SafeLongDistance(Metric):
             return self.SIDEBYSIDE
 
     def _longitudinal_speed(
-        self, entity_pos, entity_vel, entity_road_network_information
+        self, entity_vel, entity_current_lane, entity_final_lane_center_index
     ) -> float:
-        (
-            current_lane,
-            final_lane_center_index,
-        ) = self._get_lane_and_lane_center_index(
-            entity_pos, entity_road_network_information
-        )
-
         # Convert closest lane center point and
         # next-nearest lane center to array.
         # Does not matter if the next lane center point is 'ahead' or 'behind'
@@ -209,10 +197,10 @@ class SafeLongDistance(Metric):
         # Because we only need the projection of the entity's velocity onto the
         # Longitudinal direction (no sign needed for speed).
         current_lane_center_point = np.array(
-            current_lane.center.coords[final_lane_center_index]
+            entity_current_lane.center.coords[entity_final_lane_center_index]
         )
         next_lane_center_point = np.array(
-            current_lane.center.coords[final_lane_center_index - 1]
+            entity_current_lane.center.coords[entity_final_lane_center_index - 1]
         )
 
         longitudinal_direction = next_lane_center_point - current_lane_center_point
@@ -228,15 +216,8 @@ class SafeLongDistance(Metric):
         return longitudinal_speed
 
     def _longitudinal_distance(
-        self, pos_ego, pos_non_ego, entity_road_network_information
+        self, pos_ego, pos_non_ego, ego_current_lane, ego_final_lane_center_index
     ) -> float:
-        (
-            current_lane,
-            final_lane_center_index,
-        ) = self._get_lane_and_lane_center_index(
-            pos_ego, entity_road_network_information
-        )
-
         # Convert closest lane center point and
         # next-nearest lane center to array.
         # Does not matter if the next lane
@@ -244,10 +225,10 @@ class SafeLongDistance(Metric):
         # Because we only need the projection of the entity's velocity onto the
         # Longitudinal direction (no sign needed for speed)
         current_lane_center_point = np.array(
-            current_lane.center.coords[final_lane_center_index]
+            ego_current_lane.center.coords[ego_final_lane_center_index]
         )
         next_lane_center_point = np.array(
-            current_lane.center.coords[final_lane_center_index - 1]
+            ego_current_lane.center.coords[ego_final_lane_center_index - 1]
         )
 
         longitudinal_direction = next_lane_center_point - current_lane_center_point
@@ -322,36 +303,33 @@ class SafeLongDistance(Metric):
                     continue
 
                 # Get ego vehicle pose, velocity, and lane.
-                pos_ego = state.poses[self.ego][:2]
-                vel_ego = state.velocities[self.ego][:2]
-                ego_road_network_info = state.get_road_info_at_entity(self.ego)
+                pos_ego, vel_ego, ego_current_lane, ego_lane_center_index = self._pose_velocity_lane_and_lane_center(self.ego, state)
                 # Get non_ego vehicle pose, velocity, and lane.
-                pos_non_ego = state.poses[entity][:2]
-                vel_non_ego = state.velocities[entity][:2]
-                non_ego_road_network_info = state.get_road_info_at_entity(entity)
+                pos_non_ego, vel_non_ego, non_ego_current_lane, non_ego_lane_center_index = self._pose_velocity_lane_and_lane_center(entity, state)
 
                 ego_relative_position_string = (
                     self._is_ego_leading_following_or_side(
                         pos_ego,
-                        ego_road_network_info,
+                        ego_current_lane,
+                        ego_lane_center_index,
                         pos_non_ego,
-                        non_ego_road_network_info,
+                        non_ego_current_lane
                     )
                 )
 
                 if ego_relative_position_string == "following":
                     speed_rear = self._longitudinal_speed(
-                        pos_ego, vel_ego, ego_road_network_info
+                        vel_ego, ego_current_lane, ego_lane_center_index
                     )
                     speed_front = self._longitudinal_speed(
-                        pos_non_ego, vel_non_ego, non_ego_road_network_info
+                        vel_non_ego, non_ego_current_lane, non_ego_lane_center_index
                     )
                 elif ego_relative_position_string == "leading":
                     speed_rear = self._longitudinal_speed(
-                        pos_non_ego, vel_non_ego, non_ego_road_network_info
+                        vel_non_ego, non_ego_current_lane, non_ego_lane_center_index
                     )
                     speed_front = self._longitudinal_speed(
-                        pos_ego, vel_ego, ego_road_network_info
+                        vel_ego, ego_current_lane, ego_lane_center_index
                     )
                 else:
                     continue
@@ -360,7 +338,7 @@ class SafeLongDistance(Metric):
                     speed_rear, speed_front
                 )
                 long_dist = self._longitudinal_distance(
-                    pos_ego, pos_non_ego, ego_road_network_info
+                    pos_ego, pos_non_ego, ego_current_lane, ego_lane_center_index
                 )
 
                 long_risk = self._long_risk_index(
@@ -452,29 +430,32 @@ class SafeLatDistance(Metric):
         self.safe_lat_dist_brake_dict = {}
         self.lat_dist_dict = {}
         self.lat_risk_dict = {}
-        
-    def _get_lane_and_lane_center_index(
-        self, entity_pos, entity_road_network_information
-    ) -> tuple:
-        # Initialize variables to deduce the closest lane center coordinates
+
+    def _pose_velocity_lane_and_lane_center(self, entity, state) -> tuple:
+        # Initialize variables to deduce the closest lane center coordinates.
         min_distance = float("inf")
         final_lane_center_index = None
         final_lane_index = None
+
+        # Get entity vehicle pose, velocity, and road network information.
+        entity_position = state.poses[entity][:2]
+        entity_velocity = state.velocities[entity][:2]
+        entity_road_network_information = state.get_road_info_at_entity(entity)
+
+        # Get lane type and lane ID.
         road_network_types = entity_road_network_information[0]
         road_network_ids = entity_road_network_information[1]
 
         if "Lane" not in road_network_types:
-            return 0, 0
-
-        for lane_index, road_network_type in enumerate(
-            road_network_types
-        ):
+            return entity_position, entity_velocity, 0, 0
+        
+        for lane_index, road_network_type in enumerate(road_network_types):
             if road_network_type == "Lane":
                 lane = road_network_ids[lane_index]
                 # Loop through lane center points to find the closest one to entity
                 for lane_center_index, coords in enumerate(lane.center.coords):
-                    # Compute the Euclidean distance between ego and lane center.
-                    distance = abs(np.linalg.norm(entity_pos - coords))
+                    # Compute the Euclidean distance between ego and lane center
+                    distance = abs(np.linalg.norm(entity_position - coords))
                     # Update the closest lane center index
                     if distance < min_distance:
                         min_distance = distance
@@ -482,24 +463,16 @@ class SafeLatDistance(Metric):
                         final_lane_index = lane_index
 
         current_lane = road_network_ids[final_lane_index]
+        final_lane_center_index = final_lane_center_index
 
-        return current_lane, final_lane_center_index
+        return entity_position, entity_velocity, current_lane, final_lane_center_index
 
-    def _is_ego_left_or_right(self, pos1, roadinfo1, pos2, roadinfo2) -> str:
+    def _is_ego_left_or_right(self, pos1, current_lane_vehicle_1, final_lane_center_index_vehicle_1, pos2, current_lane_vehicle_2) -> str:
         """
         Dev Note: Safe latitudinal distance is currently limited.
 
         To instances where both vehicles are in separate lanes.
         """
-        (
-            current_lane_vehicle_1,
-            final_lane_center_index_vehicle_1,
-        ) = self._get_lane_and_lane_center_index(pos1, roadinfo1)
-        (
-            current_lane_vehicle_2,
-            final_lane_center_index_vehicle_2,
-        ) = self._get_lane_and_lane_center_index(pos2, roadinfo2)
-
         if current_lane_vehicle_1 == 0 or current_lane_vehicle_2 == 0:
             return self.OUT_OF_BOUNDS
 
@@ -528,15 +501,8 @@ class SafeLatDistance(Metric):
             return self.INLINE
 
     def _latitudinal_speed(
-        self, entity_pos, entity_vel, entity_road_network_information
+        self, entity_vel, entity_current_lane, entity_final_lane_center_index
     ) -> float:
-        (
-            current_lane,
-            final_lane_center_index,
-        ) = self._get_lane_and_lane_center_index(
-            entity_pos, entity_road_network_information
-        )
-
         # Convert closest lane center point and
         # next-nearest lane center to array.
         # Does not matter if the next lane center point is 'ahead' or 'behind'
@@ -544,10 +510,10 @@ class SafeLatDistance(Metric):
         # Because we only need the projection of the entity's velocity onto the
         # latitudinal direction (no sign needed for speed)
         current_lane_center_point = np.array(
-            current_lane.center.coords[final_lane_center_index]
+            entity_current_lane.center.coords[entity_final_lane_center_index]
         )
         next_lane_center_point = np.array(
-            current_lane.center.coords[final_lane_center_index - 1]
+            entity_current_lane.center.coords[entity_final_lane_center_index - 1]
         )
 
         longitudinal_direction = -(
@@ -569,25 +535,18 @@ class SafeLatDistance(Metric):
         return latitudinal_speed
 
     def _latitudinal_distance(
-        self, pos_ego, pos_non_ego, entity_road_network_information
+        self, pos_ego, pos_non_ego, ego_current_lane, ego_final_lane_center_index
     ) -> float:
-        (
-            current_lane,
-            final_lane_center_index,
-        ) = self._get_lane_and_lane_center_index(
-            pos_ego, entity_road_network_information
-        )
-
         # Convert closest lane center point and next-nearest lane center to array
         # Does not matter if the next lane center point is 'ahead' or 'behind'
         # direction of travel...
         # Because we only need the projection of the entity's velocity onto the
         # latitudinal direction (no sign needed for speed)
         current_lane_center_point = np.array(
-            current_lane.center.coords[final_lane_center_index]
+            ego_current_lane.center.coords[ego_final_lane_center_index]
         )
         next_lane_center_point = np.array(
-            current_lane.center.coords[final_lane_center_index - 1]
+            ego_current_lane.center.coords[ego_final_lane_center_index - 1]
         )
 
         longitudinal_direction = -(
@@ -693,41 +652,29 @@ class SafeLatDistance(Metric):
                     continue
 
                 # Get ego vehicle pose, velocity, and lane.
-                pos_ego = state.poses[self.ego][:2]
-                vel_ego = state.velocities[self.ego][:2]
-                ego_lane = state.get_road_info_at_entity(self.ego)
+                pos_ego, vel_ego, ego_current_lane, ego_lane_center_index = self._pose_velocity_lane_and_lane_center(self.ego, state)
                 # Get non_ego vehicle pose, velocity, and lane.
-                pos_non_ego = state.poses[entity][:2]
-                vel_non_ego = state.velocities[entity][:2]
-                non_ego_lane = state.get_road_info_at_entity(entity)
+                pos_non_ego, vel_non_ego, non_ego_current_lane, non_ego_lane_center_index = self._pose_velocity_lane_and_lane_center(entity, state)
 
-                check = self._is_ego_left_or_right(
-                    pos_ego, ego_lane, pos_non_ego, non_ego_lane
-                )
+                check = self._is_ego_left_or_right(pos_ego, ego_current_lane, ego_lane_center_index, pos_non_ego, non_ego_current_lane)
 
                 if check is None or check == "inline":
                     continue
                 elif check == "right":
-                    speed_right = self._latitudinal_speed(
-                        pos_ego, vel_ego, ego_lane
-                    )
-                    speed_left = self._latitudinal_speed(
-                        pos_non_ego, vel_non_ego, non_ego_lane
-                    )
+                    speed_right = self._latitudinal_speed(vel_ego, ego_current_lane, ego_lane_center_index)
+                    speed_left = self._latitudinal_speed(vel_non_ego, non_ego_current_lane, non_ego_lane_center_index)
                 elif check == "left":
                     speed_right = self._latitudinal_speed(
-                        pos_non_ego, vel_non_ego, non_ego_lane
+                        vel_non_ego, non_ego_current_lane, non_ego_lane_center_index
                     )
-                    speed_left = self._latitudinal_speed(pos_ego, vel_ego, ego_lane)
+                    speed_left = self._latitudinal_speed(vel_ego, ego_current_lane, ego_lane_center_index)
                 else:
                     continue
 
                 safeLatDis, safeLatDisBrake = self._calculate_safe_lat_dist(
                     speed_left, speed_right
                 )
-                lat_dist = self._latitudinal_distance(
-                    pos_ego, pos_non_ego, ego_lane
-                )
+                lat_dist = self._latitudinal_distance(pos_ego, pos_non_ego, ego_current_lane, ego_lane_center_index)
 
                 lat_risk = self._lat_risk_index(
                     safeLatDis, safeLatDisBrake, lat_dist
