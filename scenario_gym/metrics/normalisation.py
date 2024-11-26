@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 class RiskMetricsNormalisation:
     """Class for calculating various risk metrics."""
 
@@ -58,7 +59,9 @@ class RiskMetricsNormalisation:
 
     def _space_occupancy_index_term(self, term_specific_dataframe):
         """Calculate space occupancy index term."""
-        has_vehicle = any("vehicle" in item for item in term_specific_dataframe.columns)
+        has_vehicle = any(
+            "vehicle" in item for item in term_specific_dataframe.columns
+        )
         has_pedestrian = any(
             "pedestrian" in item for item in term_specific_dataframe.columns
         )

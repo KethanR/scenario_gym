@@ -1,7 +1,9 @@
 import numpy as np
 import pandas as pd
+
 from scenario_gym.metrics.normalisation import RiskMetricsNormalisation
 from scenario_gym.metrics.utils import LaggingMetricsProcessor
+
 
 class UnifiedRiskMetricCalculator:
     """Class for calculating unified and continuous risk metrics."""
@@ -9,6 +11,7 @@ class UnifiedRiskMetricCalculator:
     def __init__(self, metrics):
         """
         Initialize the class with metrics data.
+
         :param metrics: JSON-like dictionary containing the metrics data.
         """
         self.metrics = metrics
@@ -17,6 +20,7 @@ class UnifiedRiskMetricCalculator:
     def _get_metric_dataframe(self):
         """
         Convert metrics JSON data into separate Pandas DataFrames for each metric.
+
         :return: A dictionary of metric names and their corresponding DataFrames.
         """
         metric_dataframes = {}
@@ -51,6 +55,7 @@ class UnifiedRiskMetricCalculator:
     def _calculate_unified_risk_metric(self, continuous_bool=False, timestep=None):
         """
         Calculate the unified risk metric based on the metrics provided.
+
         :param continuous_bool: Whether the calculation is for a continuous metric.
         :param timestep: The current timestep for continuous metrics.
         :return: Unified risk value.
@@ -86,20 +91,27 @@ class UnifiedRiskMetricCalculator:
         # Calculate unified risk value
         weights = np.ones(len(metrics_list)) / len(metrics_list)
         unified_risk_value = np.dot(weights, np.array(metrics_list))
-        unified_risk_value = unified_risk_value if not np.isnan(unified_risk_value) else 0
+        unified_risk_value = (
+            unified_risk_value if not np.isnan(unified_risk_value) else 0
+        )
 
         return unified_risk_value
 
     def _calculate_continuous_unified_risk_metric(self):
         """
         Calculate the continuous unified risk metric for each timestep.
+
         Updates the metrics data with the continuous unified risk metric.
         """
         for timestep in self.metrics.keys():
-            if isinstance(self.metrics[timestep], list):  
-                continuous_unified_risk_metric_value = self._calculate_unified_risk_metric(
-                    continuous_bool=True, timestep=timestep
+            if isinstance(self.metrics[timestep], list):
+                continuous_unified_risk_metric_value = (
+                    self._calculate_unified_risk_metric(
+                        continuous_bool=True, timestep=timestep
+                    )
                 )
                 self.metrics[timestep].append(
-                    {"continuous_unified_risk_metric": continuous_unified_risk_metric_value}
+                    {
+                        "continuous_unified_risk_metric": continuous_unified_risk_metric_value
+                    }
                 )

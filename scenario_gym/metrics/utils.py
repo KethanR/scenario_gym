@@ -22,10 +22,11 @@ class CollisionTimestamp(Metric):
     def get_state(self) -> float | bool:
         """Return collision check and timestamp."""
         return self.collision_check_and_timestamp
-    
+
+
 # ---------- Process Lagging Metrics ----------#
 class LaggingMetricsProcessor:
-    """Class to calculate lagging metrics including TIT, TET, Space Occupancy Index, and lagging metrics term."""
+    """Class to calculate lagging metrics including TIT, TET, SOI."""
 
     def __init__(self, data):
         self.data = data
@@ -35,7 +36,9 @@ class LaggingMetricsProcessor:
 
     def _get_sorted_timestamps(self):
         """Extract and sort the keys that are valid float timestamps."""
-        return sorted([float(ts) for ts in self.data if isinstance(ts, (int, float))])
+        return sorted(
+            [float(ts) for ts in self.data if isinstance(ts, (int, float))]
+        )
 
     def _calculate_tit_and_tet_duration(self, ttc_data, time_diff):
         """Calculate TIT and TET durations for each entity."""
@@ -107,7 +110,7 @@ class LaggingMetricsProcessor:
         return self.data
 
     def _lagging_metrics_term(self):
-        """Calculate the lagging metrics term based on TET, TIT, CSO, avg speed, and max speed."""
+        """Normalised lagging metrics term."""
         # Initialize
         TET_term = 0
         TIT_term = 0
@@ -158,11 +161,15 @@ class LaggingMetricsProcessor:
 
         # Handle CSO
         CSO_count_above_threshold = sum(
-            1 for value in cumulative_space_occupancy_dict.values() if value > threshold_CSO
+            1
+            for value in cumulative_space_occupancy_dict.values()
+            if value > threshold_CSO
         )
         CSO_term = 1 if CSO_count_above_threshold > 1 else 0
 
         # Final lagging metrics term
-        lagging_metrics_term = (TET_term + TIT_term + CSO_term + avg_term + max_term) / 5
+        lagging_metrics_term = (
+            TET_term + TIT_term + CSO_term + avg_term + max_term
+        ) / 5
 
         return lagging_metrics_term
